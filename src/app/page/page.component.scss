@@ -1,16 +1,8 @@
-@import '~sass/variables';
-@import '~sass/mixins';
+@import '../../sass/variables';
+@import '../../sass/mixins';
+@import '../../sass/font-sizes';
+
 
 .fullBg {
     //width: 100%;
-}
-
-h1 {
-    color: indigo;
-}
-
-p {
-    span.pinky {
-        color: deeppink;
-    }
 }
