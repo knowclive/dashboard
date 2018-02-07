@@ -1,6 +1,16 @@
 @import '~sass/variables';
 @import '~sass/mixins';
 
-h1 {
-  color: darkorange;
+ul {
+  list-style-type: none;
+  margin: 30px 30px 0 0;
+  padding: 0;
+
+  li {
+    padding: 15px;
+    width: 100%;
+    background: cornflowerblue;
+    margin-bottom: 2px;
+    font-weight: 700;
+  }
 }

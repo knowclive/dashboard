@@ -10,5 +10,15 @@
   <li><a [routerLink]="['contact']" routerLinkActive="active">Contact</a></li>
 </ul>
 
+<!--<button class="btn btn-success" style="margin-left:80px;" [@myTrigger]="state" (click)="toggleState()">My Button</button>-->
+<button class="btn btn-success" style="margin-left:80px;" (click)="toggleState()" [@removeMe]="btnState">My Button</button>
+
+<ul>
+  <!--<li *ngFor="let item of items" [@myTrigger]="state">{{ item }}</li>-->
+  <li *ngFor="let item of items" [@myTrigger]="state" (@myTrigger.start)="animStart($event)" (@myTrigger.done)="animDone($event)">{{ item }}</li>
+</ul>
+
+<p>{{ animDetails }}</p>
+
 
 <router-outlet></router-outlet>
