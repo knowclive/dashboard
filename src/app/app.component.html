@@ -22,15 +22,19 @@
 
 
 <div class="main-wrapper">
+
+
     <header class="header">
         <span>top nav items</span>
         <nav></nav>
-        <div class="hero">
-            <h1>Good morning, Julia</h1>
-            <p>Welcome back to your dashboard Julia, hope today is a good day.</p>
-        </div>
     </header>
     <!--header-->
+
+    <div class="hero">
+        <h1>Good morning, Julia</h1>
+        <p>Welcome back to your dashboard Julia, hope today is a good day.</p>
+    </div>
+    <!--hero-->
 
     <aside class="sidemenu-icons">
         <div class="sidebar-container">
@@ -63,58 +67,97 @@
             <li>My membership</li>
             <li>News and events</li>
         </ul>
-        
+
     </nav>
     <!--sidemenu-->
 
     <article class="dashboard">
         <div class="container">
-            <div class="row top-tasks">
-                <div class="col-4">
-                    <div class="card">
-                        Read your AAT Teaching Toolkit
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        3 Saved articles
-                    </div>
-                </div>
-            </div>
-            <!--row-->
 
-            <div class="row resources">
-                <div class="col-8">
-                    <div class="card">
-                        <h3>Resources</h3>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <h4>Read your AAT Teaching Toolkit</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <h4>3 Saved articles</h4>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <!--row-->
+                    <!--row-->
 
-            <div class="row my-progress">
-                <div class="col-8">
-                    <div class="card">
-                        <h3>My progress</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <h3>Resources</h3>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <!--row-->
+                    <!--row-->
 
-            <div class="row admin">
-                <div class="col-8">
-                    <div class="card">
-                        <h3>Administration</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <h3>My progress</h3>
+                            </div>
+                        </div>
                     </div>
+                    <!--row-->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <h3>Administration</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--row-->
                 </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <h3>We launched new qualification</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--row-->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <h3>Information and updates</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--row-->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <h3>Key dates</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!--row-->
+
+                </div>
+                <!--col-->
+
             </div>
-            <!--row-->
+            <!--row for both cols-->
+
+
 
         </div>
+        <!--container-->
+
     </article>
-    <!--dashboard content-->
-
-
 
 
     <router-outlet></router-outlet>
