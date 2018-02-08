@@ -4,13 +4,64 @@
 .header {
   position: relative;
   height: 68px;
-  z-index: 1030;
-  background: lightgrey;
+  z-index: -999;
+  background: darkseagreen;
 }
 
 .hero {
   position: relative;
   height: 282px;
-  z-index: 1030;
-  background: grey;
+  z-index: -999;
+  background: honeydew;
+}
+
+
+//fixed sidebar
+.sidebar {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 260px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: darkslategrey; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+
+  &-header {
+    background: cornflowerblue;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    &__brand {
+      flex: 0 0 68px;
+      max-width: 68px;
+      background: yellow;
+    }
+  }
+
+  &-main {
+    display: flex;
+    flex-wrap: nowrap;
+
+    &__menu-icons {
+      background: dodgerblue;
+      //width: 68px;
+      flex: 0 0 68px;
+      max-width: 68px;
+    }
+
+    &__menu {
+      background: deepskyblue;
+      //width: 192px;
+      flex: 0 0 192px;
+      max-width: 192px;
+    }
+  }
+}
+
+//main content
+.dashboard {
+  margin-left: 190px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
 }
