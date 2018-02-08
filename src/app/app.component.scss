@@ -6,13 +6,16 @@
   position: relative;
   height: 68px;
   z-index: -999;
+  margin-left: 260px;
 }
 
 .hero {
   position: relative;
-  height: 282px;
+  height: 100px;
   z-index: -999;
-  background: honeydew;
+  background: $ui-grey-2;
+  margin-left: 260px;
+  padding-left: $padding-medium;
 }
 
 
@@ -81,6 +84,5 @@
 
 //main content
 .dashboard {
-  margin-left: 190px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+  margin-left: 260px; /* Same as the width of the sidebar */
 }
