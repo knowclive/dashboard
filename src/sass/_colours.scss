@@ -21,16 +21,14 @@ $cta-color: #F28300; // Orange
 $white: #fff !default;
 $black: #1A1A1A !default;
 
-// Gray and brand colors for use across Bootstrap.
-$gray:                   #333;
-$gray-base:              #000 !default;
-$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:              lighten($gray-base, 20%) !default;   // #333
-$gray:                   lighten($gray-base, 33.5%) !default; // #555
-$gray-light:             lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
-$gray-lightest:          lighten($gray, 45%);
-$gray-icons:             #c8c8c8;
+$ui-grey-1:               #F8F8F8;
+$ui-grey-2:               #DFE1E5;
+$ui-grey-3:               #C3C3C3;
+$ui-grey-4:               #4A4A4A;
+
+//$gray-base:              #000 !default;
+//$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+//$gray-lightest:          lighten($gray, 45%);
 
 
 // Background colours light gray

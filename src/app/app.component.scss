@@ -1,11 +1,11 @@
 @import '../sass/variables';
 @import '../sass/mixins';
+@import '../sass/colours';
 
 .header {
   position: relative;
   height: 68px;
   z-index: -999;
-  background: darkseagreen;
 }
 
 .hero {
@@ -24,38 +24,57 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: darkslategrey; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-
-  &-header {
-    background: cornflowerblue;
-    display: flex;
-    flex-wrap: nowrap;
-    
-    &__brand {
-      flex: 0 0 68px;
-      max-width: 68px;
-      background: yellow;
-    }
-  }
 
   &-main {
     display: flex;
     flex-wrap: nowrap;
+    height: 100%;
 
-    &__menu-icons {
-      background: dodgerblue;
+    &-icons {
       //width: 68px;
       flex: 0 0 68px;
       max-width: 68px;
+      background: $black;
+
+      &-brand {
+        padding: 20px 0 0 0;
+        height: 68px;
+      }
+
+      ul {
+        color: $white;
+        opacity: 0.8;
+        text-align: center;
+
+        li {
+          padding: $padding-base;
+          height: 68px;
+
+          i {
+            font-size: 24px;
+          }
+        }
+      }
     }
 
     &__menu {
-      background: deepskyblue;
       //width: 192px;
       flex: 0 0 192px;
       max-width: 192px;
+      background: $ui-grey-4;
+
+      ul {
+        top: 68px;
+        position: relative;
+        color: $white;
+        opacity: 0.8;
+
+        li {
+          padding: $padding-base;
+          height: 68px;
+        }
+      }
     }
   }
 }

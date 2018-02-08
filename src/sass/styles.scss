@@ -26,6 +26,9 @@ body {
   color: $black;
 }
 
+ul {
+  padding: 0;
+}
 
 .active {
   &:hover {
