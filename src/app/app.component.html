@@ -25,7 +25,7 @@
 
 
     <header class="header">
-        <span>top nav items</span>
+        <button (click)="hideAndShow()">show</button>
         <nav></nav>
     </header>
     <!--header-->
@@ -58,7 +58,7 @@
             </div>
             <!--sidebar-main-icons-->
 
-            <div class="sidebar-main__menu">
+            <div class="sidebar-main__menu" [@sideMenuAnime]="openClose">
                 <ul>
                     <li>MyAAT</li>
                     <li>Training and assessment</li>
@@ -77,7 +77,7 @@
     </aside>
     <!--sidebar-->
 
-    <article class="dashboard">
+    <article class="dashboard" [@mainContainerAnime]="openClose">
         <div class="container">
 
             <div class="row">
