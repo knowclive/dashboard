@@ -14,7 +14,7 @@
   height: 100px;
   z-index: -999;
   background: $ui-grey-2;
-  margin-left: 260px;
+  //margin-left: 260px;
   padding-left: $padding-medium;
 }
 
@@ -66,6 +66,18 @@
       flex: 0 0 192px;
       max-width: 192px;
       background: $ui-grey-4;
+      button {
+        background: transparent;
+        border-color: transparent;
+        border-style: none;
+        border-width: 0;
+        padding: $padding-base $padding-base 0 0;
+        float: right;
+        i {
+          color: $white;
+          font-size: 20px;
+        }
+      }
 
       ul {
         top: 68px;

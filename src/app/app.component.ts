@@ -8,15 +8,20 @@ import {Component, trigger, state, style, transition, animate, keyframes, Change
       trigger('sideMenuAnime', [
           state('close', style({width:'0px', visibility: 'hidden'})),
           state('open', style({width:'260px'})),
-          
-          transition('open => close', animate('400ms ease-in')),
-          transition('close => open', animate('400ms ease-out'))
+          transition('open => close', animate('500ms ease-in')),
+          transition('close => open', animate('500ms ease-out'))
       ]),
     trigger('mainContainerAnime', [
       state('close', style({marginLeft:'0px'})),
       state('open', style({marginLeft:'260px'})),
-      transition('open => close', animate('400ms ease-in')),
-      transition('close => open', animate('400ms ease-out'))
+      transition('open => close', animate('500ms ease-in')),
+      transition('close => open', animate('500ms ease-out'))
+    ]),
+    trigger('heroAnime', [
+      state('close', style({paddingLeft:'165px'})),
+      state('open', style({paddingLeft:'30px'})),
+      transition('open => close', animate('500ms ease-in')),
+      transition('close => open', animate('500ms ease-out'))
     ])
     // trigger('myTrigger', [
     //   state('small', style({

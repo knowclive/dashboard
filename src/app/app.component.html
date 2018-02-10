@@ -25,16 +25,16 @@
 
 
     <header class="header">
-        <button (click)="hideAndShow()">show</button>
+
         <nav></nav>
     </header>
     <!--header-->
 
-    <div class="hero">
-        <h1>Good morning, Julia</h1>
-        <p>Welcome back to your dashboard Julia, hope today is a good day.</p>
-    </div>
-    <!--hero-->
+    <!--<div class="hero" [@mainContainerAnime]="openClose">-->
+        <!--<h1>Good morning, Julia</h1>-->
+        <!--<p>Welcome back to your dashboard Julia, hope today is a good day.</p>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;hero&ndash;&gt;-->
 
     <aside class="sidebar">
 
@@ -59,6 +59,7 @@
             <!--sidebar-main-icons-->
 
             <div class="sidebar-main__menu" [@sideMenuAnime]="openClose">
+                <button (click)="hideAndShow()" role="button" class="btn-sidemenu__close"><i class="fas fa-angle-left"></i></button>
                 <ul>
                     <li>MyAAT</li>
                     <li>Training and assessment</li>
@@ -78,6 +79,13 @@
     <!--sidebar-->
 
     <article class="dashboard" [@mainContainerAnime]="openClose">
+
+        <div class="hero" [@heroAnime]="openClose">
+            <h1>Good morning, Julia</h1>
+            <p>Welcome back to your dashboard Julia, hope today is a good day.</p>
+        </div>
+        <!--hero-->
+
         <div class="container">
 
             <div class="row">
