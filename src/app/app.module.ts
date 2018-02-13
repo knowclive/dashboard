@@ -10,6 +10,7 @@ import {PageComponent} from './page/page.component';
 import {ContentService} from './shared/services/content.service';
 import {AppRoutingModule} from './app-routing.module';
 import {FullpageDirective} from './shared/directives/fullpage.directive';
+import {PopoverModule} from 'ng2-popover';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {FullpageDirective} from './shared/directives/fullpage.directive';
     // BrowserAnimationsModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PopoverModule
   ],
   providers: [ContentService],
   bootstrap: [AppComponent]

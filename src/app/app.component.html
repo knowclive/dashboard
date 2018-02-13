@@ -22,7 +22,6 @@
 
 
 <div class="main-wrapper">
-
     <header class="header">
         <div class="header-toolbar">
             <nav class="header-toolbar__inner">
@@ -33,8 +32,29 @@
                             <input type="search" name="search" placeholder="SEARCH APP">
                         </label>
                     </li>
+                    <li>
+                        <div class="avatar" [popover]="myPopover">
+                            <img src="/assets/img/Avatar.png" alt="" width="48" height="48">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                        <popover-content #myPopover
+                                         title=""
+                                         [closeOnClickOutside]="true">
+                            <ul class="profile-menu">
+                                <li><a href="">Profile and account</a></li>
+                                <li><a href="">Student membership<br><span>Change role</span></a></li>
+                                <li><a href="">Edit my details</a></li>
+                                <li><a href="" class="ext-link">Visit the AAT website <i class="fas fa-external-link-alt"></i></a></li>
+                                <li><a href="">Log out</a></li>
+                            </ul>
+                        </popover-content>
+                    </li>
+
                 </ul>
             </nav>
+
+
+
         </div>
     </header>
     <!--header-->

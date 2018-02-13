@@ -63,6 +63,12 @@
           }
         }
       }
+
+      .avatar {
+        background: lightgrey;
+      }
+      .profile-menu {
+      }
     }
 
     & > div {
@@ -75,7 +81,6 @@
     letter-spacing: 0px;
     float: left;
   }
-
 }
 
 .hero {
