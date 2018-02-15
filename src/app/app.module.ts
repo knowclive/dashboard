@@ -11,12 +11,16 @@ import {ContentService} from './shared/services/content.service';
 import {AppRoutingModule} from './app-routing.module';
 import {FullpageDirective} from './shared/directives/fullpage.directive';
 import {PopoverModule} from 'ng2-popover';
+import {HeaderComponent} from './components/header/header.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageComponent,
-    FullpageDirective
+    FullpageDirective,
+    HeaderComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
