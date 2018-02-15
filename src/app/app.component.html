@@ -70,7 +70,6 @@
 
         <div class="sidebar-main">
             <div class="sidebar-main-icons">
-
                 <div class="sidebar-main-icons-brand">
                     <img alt="AAT Home" height="30" src="https://www.aat.org.uk/assets/img/svg/aat_logo.svg"
                          title="AAT Home" width="69">
@@ -108,15 +107,16 @@
     </aside>
     <!--sidebar-->
 
+    <div class="hero container-fluid" [@heroAnime]="openClose">
+        <h1>Good morning, Julia</h1>
+        <p>Welcome back to your dashboard Julia, hope today is a good day.</p>
+    </div>
+    <!--hero-->
+
     <article class="dashboard" [@mainContainerAnime]="openClose">
-
-        <div class="hero" [@heroAnime]="openClose">
-            <h1>Good morning, Julia</h1>
-            <p>Welcome back to your dashboard Julia, hope today is a good day.</p>
-        </div>
-        <!--hero-->
-
-        <div class="container">
+        <!--<button (click)="hideAndShow()" [@sideMenuAnime]="openClose" role="button" class="btn-sidemenu__close"><i class="fas fa-angle-right"></i></button>-->
+        <button (click)="hideAndShow()" role="button" class="btn-sidemenu__close"><i class="fas fa-angle-right"></i></button>
+        <div class="container-fluid">
 
             <div class="row">
                 <div class="col-md-8">

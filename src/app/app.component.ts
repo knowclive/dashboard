@@ -11,15 +11,21 @@ import {Component, trigger, state, style, transition, animate, keyframes, Change
           transition('open => close', animate('500ms ease-in')),
           transition('close => open', animate('500ms ease-out'))
       ]),
+    // trigger('rightArrow', [
+    //   state('close', style({width:'30px', visibility: 'visible'})),
+    //   state('open', style({width:'260px'})),
+    //   // transition('open => close', animate('500ms ease-in')),
+    //   // transition('close => open', animate('500ms ease-out'))
+    // ]),
     trigger('mainContainerAnime', [
-      state('close', style({marginLeft:'0px'})),
+      state('close', style({marginLeft:'90px'})),
       state('open', style({marginLeft:'260px'})),
       transition('open => close', animate('500ms ease-in')),
       transition('close => open', animate('500ms ease-out'))
     ]),
     trigger('heroAnime', [
-      state('close', style({paddingLeft:'165px'})),
-      state('open', style({paddingLeft:'30px'})),
+      state('close', style({paddingLeft:'105px'})),
+      state('open', style({paddingLeft:'280px'})),
       transition('open => close', animate('500ms ease-in')),
       transition('close => open', animate('500ms ease-out'))
     ])
