@@ -1,4 +1,5 @@
 import {Component, trigger, state, style, transition, animate, keyframes, ChangeDetectorRef} from '@angular/core';
+import {sidemenu, mainContainer, hero} from './shared/animations';
 
 
 @Component({
@@ -6,30 +7,10 @@ import {Component, trigger, state, style, transition, animate, keyframes, Change
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   animations: [
-      trigger('sideMenuAnime', [
-          state('close', style({width:'0px', visibility: 'hidden'})),
-          state('open', style({width:'260px'})),
-          transition('open => close', animate('500ms ease-in')),
-          transition('close => open', animate('500ms ease-out'))
-      ]),
-    // trigger('rightArrow', [
-    //   state('close', style({width:'30px', visibility: 'visible'})),
-    //   state('open', style({width:'260px'})),
-    //   // transition('open => close', animate('500ms ease-in')),
-    //   // transition('close => open', animate('500ms ease-out'))
-    // ]),
-    trigger('mainContainerAnime', [
-      state('close', style({marginLeft:'90px'})),
-      state('open', style({marginLeft:'260px'})),
-      transition('open => close', animate('500ms ease-in')),
-      transition('close => open', animate('500ms ease-out'))
-    ]),
-    trigger('heroAnime', [
-      state('close', style({paddingLeft:'105px'})),
-      state('open', style({paddingLeft:'280px'})),
-      transition('open => close', animate('500ms ease-in')),
-      transition('close => open', animate('500ms ease-out'))
-    ])
+    //  These animations are stored in ./shared/animations
+    sidemenu,
+    mainContainer,
+    hero
     // trigger('myTrigger', [
     //   state('small', style({
     //     transform: 'scale(1)'
@@ -78,7 +59,7 @@ import {Component, trigger, state, style, transition, animate, keyframes, Change
 })
 export class AppComponent {
 
-  openClose:string = 'open';
+  openClose: string = 'open';
 
   hideAndShow(): void {
 
@@ -86,6 +67,7 @@ export class AppComponent {
 
     // alert('alert hideshow' + this.openClose);
   }
+
   // state: string = 'fadein';
   // // items = ['item1', 'item2', 'item3'];
   // items = new Array();
