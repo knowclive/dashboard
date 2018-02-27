@@ -76,86 +76,40 @@
 
     <article class="dashboard" [@mainContainerAnime]="openClose">
         <button (click)="hideAndShow()" role="button" class="btn-sidemenu__close"><i class="fas fa-angle-right"></i></button>
+
         <div class="container-fluid">
 
             <div class="row">
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card">
-                                <h4 class="h4">Read your AAT Teaching Toolkit</h4>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card">
-                                <h4 class="h4">3 Saved articles</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!--row-->
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <h3 class="h3">Resources</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--row-->
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <h3 class="h3">My progress</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--row-->
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <h3 class="h3">Administration</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--row-->
-                </div>
-
                 <div class="col-md-4">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <h3 class="h3">We launched new qualification</h3>
-                            </div>
-                        </div>
+                    <div class="card">
+                        <h4 class="h4">{{ app.heading1 }}</h4>
                     </div>
-                    <!--row-->
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <h3 class="h3">Information and updates</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--row-->
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card">
-                                <h3 class="h3">Key dates</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!--row-->
-
                 </div>
-                <!--col-->
-
+                <div class="col-md-4">
+                    <div class="card">
+                        <h4 class="h4">{{ app.heading2 }}</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <h4 class="h4">{{ app.heading3 }}</h4>
+                    </div>
+                </div>
             </div>
-            <!--row for both cols-->
+            <!--top row-->
 
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card">{{ app.heading4 }}</div>
+                    <div class="card">{{ app.heading5 }}</div>
+                    <div class="card">{{ app.heading6 }}</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">{{ app.heading7 }}</div>
+                    <div class="card">{{ app.heading8 }}</div>
+                </div>
+            </div>
+            <!--second row-->
 
         </div>
         <!--container-->

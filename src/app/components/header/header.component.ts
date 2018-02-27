@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  header = {
+      firstname: 'Julia',
+      lastname: 'Stiles',
+      content: 'Some home content.',
+      image: 'https://www.aat.org.uk/assets/img/frontpage/img_full.jpg'
+  };
+
   constructor() { }
 
   ngOnInit() {
