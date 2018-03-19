@@ -59,17 +59,6 @@ import {sidemenu, mainContainer, hero} from './shared/animations';
 })
 export class AppComponent {
 
-  app = {
-    heading1: 'Read your AAT Teaching Toolkit',
-    heading2: '3 saved articles',
-    heading3: 'We launched new qualification',
-    heading4: 'Resources',
-    heading5: 'My Progress',
-    heading6: 'Adminstration',
-    heading7: 'My career',
-    heading8: 'News and updates'
-  };
-
   openClose: string = 'open';
 
   hideAndShow(): void {

@@ -4,8 +4,8 @@
 //@import '../sass/font-sizes';
 
 .hero {
-  position: relative;
-  height: 100px;
+  position: absolute;
+  height: 282px;
   z-index: -999;
   background: $ui-grey-2;
   //margin-left: 260px;
@@ -112,4 +112,10 @@
       //transform: translateX(44px);
     }
   }
+}
+
+dashboard-content {
+  display: block;
+  position: relative;
+  top: 60px;
 }

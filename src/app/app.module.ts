@@ -13,6 +13,7 @@ import {FullpageDirective} from './shared/directives/fullpage.directive';
 import {PopoverModule} from 'ng2-popover';
 import {HeaderComponent} from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
+import { DashboardContentComponent } from './components/dashboard-content/dashboard-content.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeroComponent } from './components/hero/hero.component';
     PageComponent,
     FullpageDirective,
     HeaderComponent,
-    HeroComponent
+    HeroComponent,
+    DashboardContentComponent
   ],
   imports: [
     BrowserModule,

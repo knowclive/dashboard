@@ -77,42 +77,7 @@
     <article class="dashboard" [@mainContainerAnime]="openClose">
         <button (click)="hideAndShow()" role="button" class="btn-sidemenu__close"><i class="fas fa-angle-right"></i></button>
 
-        <div class="container-fluid">
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <h4 class="h4">{{ app.heading1 }}</h4>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <h4 class="h4">{{ app.heading2 }}</h4>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <h4 class="h4">{{ app.heading3 }}</h4>
-                    </div>
-                </div>
-            </div>
-            <!--top row-->
-
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="card">{{ app.heading4 }}</div>
-                    <div class="card">{{ app.heading5 }}</div>
-                    <div class="card">{{ app.heading6 }}</div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">{{ app.heading7 }}</div>
-                    <div class="card">{{ app.heading8 }}</div>
-                </div>
-            </div>
-            <!--second row-->
-
-        </div>
-        <!--container-->
+        <dashboard-content class="container-fluid"></dashboard-content>
 
     </article>
 
