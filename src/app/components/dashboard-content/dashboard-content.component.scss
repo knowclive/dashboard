@@ -1,8 +1,6 @@
 @import '../../../sass/all';
 
 .card {
-  align-items: center;
-  justify-content: center;
 }
 
 .col-top {
@@ -18,17 +16,22 @@
   .card-top {
     height: 85px;
     padding: $padding-base;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 // Right hand col content
 .card-top-rhs {
-  //background: url("https://www.aat.org.uk/assets/img/svg/aat_logo.svg");
-  background: url('/assets/img/green2x.png');
+  background: url('/assets/img/promo-bgd.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 192px;
+  color: $white;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: $padding-base;
 }
 
 ///assets/img/frontpage/img_full.jpg
