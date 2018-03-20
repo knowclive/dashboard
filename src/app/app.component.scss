@@ -4,12 +4,16 @@
 //@import '../sass/font-sizes';
 
 .hero {
-  position: absolute;
+  //position: absolute; was causing dashboard-content to scroll on top of hero
   height: 282px;
   z-index: -999;
   background: $ui-grey-2;
   //margin-left: 260px;
   padding-left: $padding-medium;
+  padding-top: $padding-large;
+  p {
+    padding-top: 10px;
+  }
 }
 
 
@@ -117,5 +121,5 @@
 dashboard-content {
   display: block;
   position: relative;
-  top: 60px;
+  top: -160px;
 }

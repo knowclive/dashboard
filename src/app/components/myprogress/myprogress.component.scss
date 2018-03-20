@@ -1,0 +1,15 @@
+@import '../../../sass/all';
+
+.row {
+  border-bottom: 1px solid $ui-grey-2;
+  padding-top: $padding-base;
+}
+
+.module-title {
+  position: relative;
+  left: 15px;
+}
+
+.fa-check-circle {
+  color: $success;
+}

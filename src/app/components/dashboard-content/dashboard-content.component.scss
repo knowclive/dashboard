@@ -1,6 +1,12 @@
 @import '../../../sass/all';
 
+.row {
+  margin-top: $margin-base;
+}
+
 .card {
+  padding: $padding-medium $padding-base;
+  border: solid 1px $ui-grey-2;
 }
 
 .col-top {
@@ -15,7 +21,6 @@
 
   .card-top {
     height: 85px;
-    padding: $padding-base;
     align-items: center;
     justify-content: center;
   }
@@ -33,5 +38,3 @@
   justify-content: flex-end;
   padding-bottom: $padding-base;
 }
-
-///assets/img/frontpage/img_full.jpg

@@ -1,0 +1,41 @@
+<h3>{{ myprogress.title }}</h3>
+
+<p>
+  {{ myprogress.summary }}
+</p>
+
+<div class="row">
+  <div class="col-md-7"><p>{{ myprogress.item1.title }}</p></div>
+  <div class="col-md-2"><span>{{ myprogress.item1.task }}</span></div>
+  <div class="col-md-2"><span>{{ myprogress.item1.status }}</span></div>
+  <div class="col-md-1"><i class="fas fa-check-circle"></i></div>
+</div>
+
+<div class="row">
+  <div class="col-md-7"><p>{{ myprogress.item2.title }}</p></div>
+  <div class="col-md-2"><span>{{ myprogress.item2.task }}</span></div>
+  <div class="col-md-2"><span>{{ myprogress.item2.status }}</span></div>
+  <div class="col-md-1"><i class="fas fa-check-circle"></i></div>
+</div>
+
+<div class="row">
+  <div class="col-md-7"><p>{{ myprogress.item3.title }}</p></div>
+  <div class="col-md-2"><span>{{ myprogress.item3.task }}</span></div>
+  <div class="col-md-2"><span>{{ myprogress.item3.status }}</span></div>
+  <div class="col-md-1"><img src="/assets/img/my-progress.svg" alt=""></div>
+</div>
+
+<div class="row">
+  <div class="col-md-11"><p class="module-title">{{ myprogress.item3.module.title1 }}</p></div>
+  <div class="col-md-1"><i class="fas fa-check"></i></div>
+</div>
+
+<div class="row">
+  <div class="col-md-11"><p class="module-title">{{ myprogress.item3.module.title2 }}</p></div>
+  <div class="col-md-1"><i class="fas fa-check"></i></div>
+</div>
+
+<div class="row">
+  <div class="col-md-12"><p class="module-title">{{ myprogress.item3.module.title3 }}</p></div>
+</div>
+

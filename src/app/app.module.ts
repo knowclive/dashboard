@@ -14,6 +14,7 @@ import {PopoverModule} from 'ng2-popover';
 import {HeaderComponent} from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { DashboardContentComponent } from './components/dashboard-content/dashboard-content.component';
+import { MyprogressComponent } from './components/myprogress/myprogress.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DashboardContentComponent } from './components/dashboard-content/dashbo
     FullpageDirective,
     HeaderComponent,
     HeroComponent,
-    DashboardContentComponent
+    DashboardContentComponent,
+    MyprogressComponent
   ],
   imports: [
     BrowserModule,
