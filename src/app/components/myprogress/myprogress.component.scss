@@ -8,8 +8,14 @@
 .module-title {
   position: relative;
   left: 15px;
+  font-size: $font-size-small;
 }
 
 .fa-check-circle {
   color: $success;
+  font-size: 20px;
+}
+
+.fa-check {
+  font-size: 16px;
 }
