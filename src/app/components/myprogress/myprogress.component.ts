@@ -32,6 +32,18 @@ export class MyprogressComponent implements OnInit {
     }
   };
 
+  public my_Class = 'style1';
+
+  toggle_class(){
+    if(this.my_Class === 'style1'){
+      this.my_Class = 'style2';
+    }else{
+      this.my_Class = 'style1';
+    }
+  }
+
+  isClassVisible: false;
+
   constructor() { }
 
   ngOnInit() {

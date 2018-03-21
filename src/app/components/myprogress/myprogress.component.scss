@@ -1,8 +1,12 @@
 @import '../../../sass/all';
 
 .row {
-  border-bottom: 1px solid $ui-grey-2;
   padding-top: $padding-base;
+}
+
+.drawer {
+  border-bottom: 1px solid $ui-grey-2;
+  cursor: pointer;
 }
 
 .module-title {
@@ -18,4 +22,15 @@
 
 .fa-check {
   font-size: 16px;
+}
+
+.accordion {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.8s ease;
+}
+
+.accordion.open {
+  max-height: 400px;
 }

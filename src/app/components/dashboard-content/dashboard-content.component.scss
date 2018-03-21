@@ -5,7 +5,7 @@
 }
 
 .card {
-  padding: $padding-medium $padding-base;
+  padding: $padding-medium $padding-base 0 $padding-base;
   border: solid 1px $ui-grey-2;
 }
 
@@ -23,6 +23,7 @@
     height: 85px;
     align-items: center;
     justify-content: center;
+    padding: $padding-medium $padding-base;
   }
 }
 
