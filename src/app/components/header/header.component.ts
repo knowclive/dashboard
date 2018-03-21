@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   header = {
-      firstname: 'Julia',
-      lastname: 'Stiles',
+      firstname: 'John',
+      lastname: 'Snow',
       content: 'Some home content.',
-      image: 'https://www.aat.org.uk/assets/img/frontpage/img_full.jpg'
+      // image: 'https://www.aat.org.uk/assets/img/frontpage/img_full.jpg'
   };
 
   constructor() { }

@@ -8,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 export class DashboardContentComponent implements OnInit {
 
   dashcontent = {
-    heading1: 'Continue revision for your next assessment',
+    heading1: 'Join AAT Green Room to take part in member surveys',
     heading2: '3 saved bookmarks',
     heading3: 'We launched new qualification',
     heading4: 'My progress',

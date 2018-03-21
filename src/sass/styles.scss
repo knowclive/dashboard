@@ -39,3 +39,23 @@ ul {
 a, button {
   cursor: pointer;
 }
+
+//Single components
+.tag {
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: $font-size-small;
+}
+
+.tag.tag-success {
+  background: $success;
+  color: $white;
+}
+
+.tag.tag-my-progress {
+  background: $warning;
+}
+
+.tag.tag-pending {
+  background: $artic;
+}

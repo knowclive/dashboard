@@ -9,7 +9,7 @@ body {
 
 // Heading font family + weights
 h1, h2, h3, h5, h6,
-.h1, .h2, .h3, {
+.h1, .h2, .h3 {
   font-family: $heading-font-family;
   //font-weight: $font-weight-brand-light !important;
   margin: 0;

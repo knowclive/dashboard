@@ -40,6 +40,9 @@
 
           .avatar {
             padding-left: $padding-base;
+            img {
+              border-radius: 50%;
+            }
           }
 
           .member-details {
