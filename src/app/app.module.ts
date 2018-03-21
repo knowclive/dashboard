@@ -12,9 +12,13 @@ import {AppRoutingModule} from './app-routing.module';
 import {FullpageDirective} from './shared/directives/fullpage.directive';
 import {PopoverModule} from 'ng2-popover';
 import {HeaderComponent} from './components/header/header.component';
-import { HeroComponent } from './components/hero/hero.component';
-import { DashboardContentComponent } from './components/dashboard-content/dashboard-content.component';
-import { MyprogressComponent } from './components/myprogress/myprogress.component';
+import {HeroComponent} from './components/hero/hero.component';
+import {DashboardContentComponent} from './components/dashboard-content/dashboard-content.component';
+import {MyprogressComponent} from './components/myprogress/myprogress.component';
+import {AdminresultsComponent} from './components/adminresults/adminresults.component';
+import {NgxCarouselModule} from 'ngx-carousel';
+import 'hammerjs';
+import { ResultscarouselComponent } from './components/resultscarousel/resultscarousel.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,9 @@ import { MyprogressComponent } from './components/myprogress/myprogress.componen
     HeaderComponent,
     HeroComponent,
     DashboardContentComponent,
-    MyprogressComponent
+    MyprogressComponent,
+    AdminresultsComponent,
+    ResultscarouselComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +38,8 @@ import { MyprogressComponent } from './components/myprogress/myprogress.componen
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    PopoverModule
+    PopoverModule,
+    NgxCarouselModule
   ],
   providers: [ContentService],
   bootstrap: [AppComponent]

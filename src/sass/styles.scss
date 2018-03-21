@@ -38,6 +38,17 @@ ul {
 
 a, button {
   cursor: pointer;
+  color: $brand-primary;
+  font-weight: 700;
+  &:hover {
+    color: $midnight;
+    text-decoration: underline;
+  }
+}
+
+//Global
+.edit-link {
+  float: right;
 }
 
 //Single components
