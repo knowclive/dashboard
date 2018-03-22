@@ -922,7 +922,7 @@ module.exports = "<a class=\"edit-link\" href=\"#\">Edit</a>\n<h3>{{ myprogress.
 /***/ 546:
 /***/ (function(module, exports) {
 
-module.exports = "<ngx-carousel\n        [inputs]=\"carouselOne\"\n        (carouselLoad)=\"myfunc($event)\">\n    <ngx-item NgxCarouselItem>\n        <img src=\"/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Passed BK AQ Congrats.</h4>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <img src=\"/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Oh no BK AQ sad face :(</h4>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Almost there BK AQ try harder</h4>\n    </ngx-item>\n    <button NgxCarouselPrev class='leftRs'>&lt;</button>\n    <button NgxCarouselNext class='rightRs'>&gt;</button>\n</ngx-carousel>\n"
+module.exports = "<ngx-carousel\n        [inputs]=\"carouselOne\"\n        (carouselLoad)=\"myfunc($event)\">\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Passed BK AQ Congrats.</h4>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Oh no BK AQ sad face :(</h4>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Almost there BK AQ try harder</h4>\n    </ngx-item>\n    <button NgxCarouselPrev class='leftRs'>&lt;</button>\n    <button NgxCarouselNext class='rightRs'>&gt;</button>\n</ngx-carousel>\n"
 
 /***/ }),
 
