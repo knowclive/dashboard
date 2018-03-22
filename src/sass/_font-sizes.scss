@@ -40,7 +40,7 @@ $font-size-small: 14px;
     //color: yellowgreen;
   }
 
-  p {
+  p, a {
     font-size: $font-size-p;
   }
 
@@ -79,7 +79,7 @@ $font-size-small: 14px;
     font-size: $font-size-h4;
   }
 
-  p {
+  p, a {
     font-size: $font-size-p;
   }
 }
@@ -117,7 +117,7 @@ $font-size-small: 14px;
     font-size: $font-size-h4 !important;
   }
 
-  p {
+  p, a {
     font-size: $font-size-p;
   }
 }

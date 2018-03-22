@@ -70,3 +70,26 @@ a, button {
 .tag.tag-pending {
   background: $artic;
 }
+
+// Overrides for Assessment results carousel component
+.ngxcarouselPointDefault {
+  .ngxcarouselPoint {
+    li {
+      background: $ui-grey-3 !important;
+      display: inline-block;
+      border-radius: 0 !important;
+      //background: rgba(0, 0, 0, 0.55);
+      padding: 0 !important;
+      margin: 0 10px !important;
+      transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+      transition: 0.4s;
+      width: 30px;
+      height: 3px;
+    }
+
+    .active {
+      background: $brand-primary !important;
+      transform: none !important;
+    }
+  }
+}
