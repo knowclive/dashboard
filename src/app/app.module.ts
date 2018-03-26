@@ -19,6 +19,7 @@ import {AdminresultsComponent} from './components/adminresults/adminresults.comp
 import {NgxCarouselModule} from 'ngx-carousel';
 import 'hammerjs';
 import { ResultscarouselComponent } from './components/resultscarousel/resultscarousel.component';
+import { StudysupportComponent } from './components/studysupport/studysupport.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ResultscarouselComponent } from './components/resultscarousel/resultsca
     DashboardContentComponent,
     MyprogressComponent,
     AdminresultsComponent,
-    ResultscarouselComponent
+    ResultscarouselComponent,
+    StudysupportComponent
   ],
   imports: [
     BrowserModule,
