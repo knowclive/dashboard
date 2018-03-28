@@ -20,6 +20,7 @@ import {NgxCarouselModule} from 'ngx-carousel';
 import 'hammerjs';
 import { ResultscarouselComponent } from './components/resultscarousel/resultscarousel.component';
 import { StudysupportComponent } from './components/studysupport/studysupport.component';
+import { MycareerComponent } from './components/mycareer/mycareer.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { StudysupportComponent } from './components/studysupport/studysupport.co
     MyprogressComponent,
     AdminresultsComponent,
     ResultscarouselComponent,
-    StudysupportComponent
+    StudysupportComponent,
+    MycareerComponent
   ],
   imports: [
     BrowserModule,
