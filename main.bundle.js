@@ -32,8 +32,8 @@ var PageComponent = (function () {
     PageComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'page',
-            template: __webpack_require__(547),
-            styles: [__webpack_require__(531)]
+            template: __webpack_require__(553),
+            styles: [__webpack_require__(535)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* ActivatedRoute */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__shared_services_content_service__["a" /* ContentService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_services_content_service__["a" /* ContentService */]) === 'function' && _b) || Object])
     ], PageComponent);
@@ -115,7 +115,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(429);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(461);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(470);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(472);
 
 
 
@@ -182,7 +182,7 @@ var AppRoutingModule = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_animations__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_animations__ = __webpack_require__(470);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -206,8 +206,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-root',
-            template: __webpack_require__(540),
-            styles: [__webpack_require__(524)],
+            template: __webpack_require__(544),
+            styles: [__webpack_require__(526)],
             animations: [
                 //  These animations are stored in ./shared/animations
                 __WEBPACK_IMPORTED_MODULE_1__shared_animations__["a" /* sidemenu */],
@@ -235,18 +235,20 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__page_page_component__ = __webpack_require__(302);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_services_content_service__ = __webpack_require__(303);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_routing_module__ = __webpack_require__(459);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__shared_directives_fullpage_directive__ = __webpack_require__(469);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ng2_popover__ = __webpack_require__(532);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__shared_directives_fullpage_directive__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ng2_popover__ = __webpack_require__(536);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_ng2_popover___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_ng2_popover__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_header_header_component__ = __webpack_require__(464);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_hero_hero_component__ = __webpack_require__(465);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_dashboard_content_dashboard_content_component__ = __webpack_require__(463);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_myprogress_myprogress_component__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_myprogress_myprogress_component__ = __webpack_require__(467);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_adminresults_adminresults_component__ = __webpack_require__(462);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ngx_carousel__ = __webpack_require__(533);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_ngx_carousel__ = __webpack_require__(537);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_hammerjs__ = __webpack_require__(316);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_hammerjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_hammerjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_resultscarousel_resultscarousel_component__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_resultscarousel_resultscarousel_component__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_studysupport_studysupport_component__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_mycareer_mycareer_component__ = __webpack_require__(466);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -257,6 +259,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
+
 
 
 
@@ -289,7 +293,9 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_12__components_dashboard_content_dashboard_content_component__["a" /* DashboardContentComponent */],
                 __WEBPACK_IMPORTED_MODULE_13__components_myprogress_myprogress_component__["a" /* MyprogressComponent */],
                 __WEBPACK_IMPORTED_MODULE_14__components_adminresults_adminresults_component__["a" /* AdminresultsComponent */],
-                __WEBPACK_IMPORTED_MODULE_17__components_resultscarousel_resultscarousel_component__["a" /* ResultscarouselComponent */]
+                __WEBPACK_IMPORTED_MODULE_17__components_resultscarousel_resultscarousel_component__["a" /* ResultscarouselComponent */],
+                __WEBPACK_IMPORTED_MODULE_18__components_studysupport_studysupport_component__["a" /* StudysupportComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__components_mycareer_mycareer_component__["a" /* MycareerComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -339,8 +345,8 @@ var AdminresultsComponent = (function () {
     AdminresultsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-adminresults',
-            template: __webpack_require__(541),
-            styles: [__webpack_require__(525)]
+            template: __webpack_require__(545),
+            styles: [__webpack_require__(527)]
         }), 
         __metadata('design:paramtypes', [])
     ], AdminresultsComponent);
@@ -384,8 +390,8 @@ var DashboardContentComponent = (function () {
     DashboardContentComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-content',
-            template: __webpack_require__(542),
-            styles: [__webpack_require__(526)]
+            template: __webpack_require__(546),
+            styles: [__webpack_require__(528)]
         }), 
         __metadata('design:paramtypes', [])
     ], DashboardContentComponent);
@@ -424,8 +430,8 @@ var HeaderComponent = (function () {
     HeaderComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-header',
-            template: __webpack_require__(543),
-            styles: [__webpack_require__(527)]
+            template: __webpack_require__(547),
+            styles: [__webpack_require__(529)]
         }), 
         __metadata('design:paramtypes', [])
     ], HeaderComponent);
@@ -459,8 +465,8 @@ var HeroComponent = (function () {
     HeroComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-hero',
-            template: __webpack_require__(544),
-            styles: [__webpack_require__(528)]
+            template: __webpack_require__(548),
+            styles: [__webpack_require__(530)]
         }), 
         __metadata('design:paramtypes', [])
     ], HeroComponent);
@@ -471,6 +477,61 @@ var HeroComponent = (function () {
 /***/ }),
 
 /***/ 466:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MycareerComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var MycareerComponent = (function () {
+    function MycareerComponent() {
+        this.mycareer = {
+            heading: 'My career',
+            summary: 'There are plenty of resources here to help you - whether you\'re working in finance, or searching for your first role.',
+            link1: {
+                title: 'Search for UK jobs',
+                url: '/'
+            },
+            link2: {
+                title: 'Build my CV online',
+                url: '/'
+            },
+            link3: {
+                title: 'Career support',
+                url: '/'
+            },
+            link4: {
+                title: 'Record work experience',
+                url: '/'
+            },
+        };
+    }
+    MycareerComponent.prototype.ngOnInit = function () {
+    };
+    MycareerComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'dashboard-mycareer',
+            template: __webpack_require__(549),
+            styles: [__webpack_require__(531)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], MycareerComponent);
+    return MycareerComponent;
+}());
+//# sourceMappingURL=mycareer.component.js.map
+
+/***/ }),
+
+/***/ 467:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -555,8 +616,8 @@ var MyprogressComponent = (function () {
     MyprogressComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-myprogress',
-            template: __webpack_require__(545),
-            styles: [__webpack_require__(529)]
+            template: __webpack_require__(550),
+            styles: [__webpack_require__(532)]
         }), 
         __metadata('design:paramtypes', [])
     ], MyprogressComponent);
@@ -566,7 +627,7 @@ var MyprogressComponent = (function () {
 
 /***/ }),
 
-/***/ 467:
+/***/ 468:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -608,8 +669,8 @@ var ResultscarouselComponent = (function () {
     ResultscarouselComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-resultscarousel',
-            template: __webpack_require__(546),
-            styles: [__webpack_require__(530)]
+            template: __webpack_require__(551),
+            styles: [__webpack_require__(533)]
         }), 
         __metadata('design:paramtypes', [])
     ], ResultscarouselComponent);
@@ -619,7 +680,86 @@ var ResultscarouselComponent = (function () {
 
 /***/ }),
 
-/***/ 468:
+/***/ 469:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StudysupportComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+// This was for a ngFor loop
+// const studySupportContent = [
+//   {title: 'Search by unit', imageUrl: '/assets/img/studysupport/search-by-unit.png'},
+//   {title: 'Green Light tests', imageUrl: '/assets/img/studysupport/green-light.png'},
+//   {title: 'Guidance', imageUrl: '/assets/img/studysupport/guidance.png'},
+//   {title: 'E-Learning', imageUrl: '/assets/img/studysupport/e-learning.png'},
+//   {title: 'Sample assessments', imageUrl: '/assets/img/studysupport/sample-assess.png'},
+//   {title: 'Events and networking', imageUrl: '/assets/img/studysupport/events.png'}
+// ];
+var StudysupportComponent = (function () {
+    // This was for a ngFor loop
+    // supportContent = studySupportContent;
+    // public studylist = [
+    //   'stuff1',
+    //   'stuff2',
+    //   'stuff3'
+    // ];
+    function StudysupportComponent() {
+        this.studysupport = {
+            heading: 'Study support',
+            summary: 'Access study support resources for all areas of your qualification.',
+            card1: {
+                title: 'Search by unit',
+                imageUrl: '/assets/img/studysupport/search-by-unit.png'
+            },
+            card2: {
+                title: 'Green Light tests',
+                imageUrl: '/assets/img/studysupport/green-light.png'
+            },
+            card3: {
+                title: 'Guidance',
+                imageUrl: '/assets/img/studysupport/guidance.png'
+            },
+            card4: {
+                title: 'E-Learning',
+                imageUrl: '/assets/img/studysupport/e-learning.png'
+            },
+            card5: {
+                title: 'Sample assessments',
+                imageUrl: '/assets/img/studysupport/sample-assess.png'
+            },
+            card6: {
+                title: 'Events and networking',
+                imageUrl: '/assets/img/studysupport/events.png'
+            },
+        };
+    }
+    StudysupportComponent.prototype.ngOnInit = function () {
+    };
+    StudysupportComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'dashboard-studysupport',
+            template: __webpack_require__(552),
+            styles: [__webpack_require__(534)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], StudysupportComponent);
+    return StudysupportComponent;
+}());
+//# sourceMappingURL=studysupport.component.js.map
+
+/***/ }),
+
+/***/ 470:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -652,7 +792,7 @@ var hero = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["tr
 
 /***/ }),
 
-/***/ 469:
+/***/ 471:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -721,7 +861,7 @@ var FullpageDirective = (function () {
 
 /***/ }),
 
-/***/ 470:
+/***/ 472:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -733,15 +873,15 @@ var environment = {
 
 /***/ }),
 
-/***/ 524:
+/***/ 526:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(27)();
+exports = module.exports = __webpack_require__(15)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
 // module
-exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p {\n    font-size: 18px; } }\n\n.hero {\n  height: 282px;\n  z-index: -999;\n  background: #DFE1E5;\n  padding-left: 30px;\n  padding-top: 60px; }\n  .hero p {\n    padding-top: 10px; }\n\n.sidebar {\n  height: 100%;\n  /* Full-height: remove this if you want \"auto\" height */\n  position: fixed;\n  /* Fixed Sidebar (stay in place on scroll) */\n  z-index: 1;\n  /* Stay on top */\n  top: 0;\n  /* Stay at the top */\n  left: 0;\n  overflow-x: hidden;\n  /* Disable horizontal scroll */ }\n  .sidebar-main {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-wrap: nowrap;\n        flex-wrap: nowrap;\n    height: 100%; }\n    .sidebar-main-icons {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 68px;\n              flex: 0 0 68px;\n      max-width: 68px;\n      background: #1A1A1A; }\n      .sidebar-main-icons-brand {\n        padding: 20px 0 0 0;\n        height: 68px; }\n      .sidebar-main-icons ul {\n        color: #fff;\n        opacity: 0.8;\n        text-align: center; }\n        .sidebar-main-icons ul li {\n          padding: 15px;\n          height: 68px; }\n          .sidebar-main-icons ul li i {\n            font-size: 24px; }\n    .sidebar-main__menu {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 192px;\n              flex: 0 0 192px;\n      max-width: 192px;\n      background: #4A4A4A; }\n      .sidebar-main__menu button {\n        background: transparent;\n        border-color: transparent;\n        border-style: none;\n        border-width: 0;\n        padding: 15px 15px 0 0;\n        float: right;\n        position: relative;\n        top: 10px; }\n        .sidebar-main__menu button i.fa-angle-left {\n          color: #fff;\n          font-size: 20px; }\n      .sidebar-main__menu ul {\n        top: 68px;\n        position: relative;\n        color: #fff;\n        opacity: 0.8; }\n        .sidebar-main__menu ul li {\n          padding: 15px;\n          height: 68px; }\n\n.dashboard {\n  margin-left: 260px;\n  /* Same as the width of the sidebar */ }\n  .dashboard button {\n    background: transparent;\n    border-color: transparent;\n    border-style: none;\n    border-width: 0;\n    padding: 15px 15px 0 0;\n    float: none;\n    position: absolute;\n    top: 10px;\n    left: 80px; }\n    .dashboard button i.fa-angle-right {\n      color: #1A1A1A;\n      font-size: 20px; }\n\ndashboard-content {\n  display: block;\n  position: relative;\n  top: -160px; }\n", ""]);
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.hero {\n  height: 282px;\n  z-index: -999;\n  background: #DFE1E5;\n  padding-left: 30px;\n  padding-top: 60px; }\n  .hero p {\n    padding-top: 10px; }\n\n.sidebar {\n  height: 100%;\n  /* Full-height: remove this if you want \"auto\" height */\n  position: fixed;\n  /* Fixed Sidebar (stay in place on scroll) */\n  z-index: 1;\n  /* Stay on top */\n  top: 0;\n  /* Stay at the top */\n  left: 0;\n  overflow-x: hidden;\n  /* Disable horizontal scroll */ }\n  .sidebar-main {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-wrap: nowrap;\n        flex-wrap: nowrap;\n    height: 100%; }\n    .sidebar-main-icons {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 68px;\n              flex: 0 0 68px;\n      max-width: 68px;\n      background: #1A1A1A; }\n      .sidebar-main-icons-brand {\n        padding: 20px 0 0 0;\n        height: 68px; }\n      .sidebar-main-icons ul {\n        color: #fff;\n        opacity: 0.8;\n        text-align: center; }\n        .sidebar-main-icons ul li {\n          padding: 15px;\n          height: 68px; }\n          .sidebar-main-icons ul li i {\n            font-size: 24px; }\n    .sidebar-main__menu {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 192px;\n              flex: 0 0 192px;\n      max-width: 192px;\n      background: #4A4A4A; }\n      .sidebar-main__menu button {\n        background: transparent;\n        border-color: transparent;\n        border-style: none;\n        border-width: 0;\n        padding: 15px 15px 0 0;\n        float: right;\n        position: relative;\n        top: 10px; }\n        .sidebar-main__menu button i.fa-angle-left {\n          color: #fff;\n          font-size: 20px; }\n      .sidebar-main__menu ul {\n        top: 68px;\n        position: relative;\n        color: #fff;\n        opacity: 0.8; }\n        .sidebar-main__menu ul li {\n          padding: 15px;\n          height: 68px; }\n\n.dashboard {\n  margin-left: 260px;\n  /* Same as the width of the sidebar */ }\n  .dashboard button {\n    background: transparent;\n    border-color: transparent;\n    border-style: none;\n    border-width: 0;\n    padding: 15px 15px 0 0;\n    float: none;\n    position: absolute;\n    top: 10px;\n    left: 80px; }\n    .dashboard button i.fa-angle-right {\n      color: #1A1A1A;\n      font-size: 20px; }\n\ndashboard-content {\n  display: block;\n  position: relative;\n  top: -160px; }\n", ""]);
 
 // exports
 
@@ -751,10 +891,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 525:
+/***/ 527:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(27)();
+exports = module.exports = __webpack_require__(15)();
 // imports
 
 
@@ -769,46 +909,46 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 526:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(27)();
-// imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
-
-// module
-exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p {\n    font-size: 18px; } }\n\n.card {\n  padding: 30px 15px 0 15px;\n  border: solid 1px #DFE1E5; }\n\n.card-progress, .card-adminresults {\n  margin-top: 30px; }\n\n.col-top {\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  height: 85px; }\n  .col-top:first-child .card-top {\n    background-color: #00ab4e; }\n  .col-top .card-top {\n    height: 85px;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    padding: 30px 15px; }\n\n.card-top-rhs {\n  background: url(\"https://knowclive.github.io/dashboard/assets/img/promo-bgd.png\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center center;\n  height: 192px;\n  color: #fff;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n  padding-bottom: 15px; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 527:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(27)();
-// imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
-
-// module
-exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p {\n    font-size: 18px; } }\n\n.header {\n  position: relative;\n  height: 68px;\n  margin-left: 260px; }\n  .header-toolbar {\n    height: 68px;\n    line-height: 50px;\n    padding-top: 5px; }\n    .header-toolbar__inner {\n      float: right; }\n      .header-toolbar__inner ul {\n        margin: 0;\n        padding: 0 20px 0 0;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex; }\n        .header-toolbar__inner ul li {\n          list-style: none;\n          margin: 0;\n          padding: 0 0 0 20px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          position: relative;\n          cursor: pointer; }\n          .header-toolbar__inner ul li label .fa-search {\n            position: absolute;\n            top: 5px;\n            right: 15px; }\n          .header-toolbar__inner ul li .avatar {\n            padding-left: 15px; }\n            .header-toolbar__inner ul li .avatar img {\n              border-radius: 50%; }\n          .header-toolbar__inner ul li .member-details {\n            padding: 0 30px 0 15px; }\n            .header-toolbar__inner ul li .member-details .name {\n              font-weight: 700;\n              position: relative;\n              top: -5px;\n              height: 10px; }\n            .header-toolbar__inner ul li .member-details .memberid {\n              font-size: 14px;\n              position: relative;\n              top: 5px; }\n      .header-toolbar__inner i {\n        height: 45px;\n        line-height: 50px;\n        color: #1A1A1A;\n        vertical-align: top;\n        font-size: 20px; }\n      .header-toolbar__inner label {\n        margin: 0;\n        padding: 0;\n        vertical-align: top; }\n        .header-toolbar__inner label i {\n          position: absolute;\n          top: 0;\n          right: 0; }\n        .header-toolbar__inner label input {\n          margin: 0;\n          padding: 0;\n          -moz-appearance: none;\n          -webkit-appearance: none;\n          border: 1px solid #fff;\n          font-size: 14px;\n          text-align: left;\n          width: 0;\n          height: 25px;\n          transition: 0.1s border linear, 0.25s width linear; }\n          .header-toolbar__inner label input:focus {\n            border: 2px solid #DFE1E5;\n            border-radius: 3px;\n            outline: none;\n            width: 650px;\n            height: 60px;\n            transition: 0.1s border linear, 0.25s width linear;\n            padding-left: 15px; }\n      .header-toolbar__inner__popover .profile-menu {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        width: 280px;\n        padding: 15px;\n        font-size: 18px;\n        box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.1);\n        border-radius: 3px; }\n        .header-toolbar__inner__popover .profile-menu li {\n          padding: 10px 0; }\n          .header-toolbar__inner__popover .profile-menu li a {\n            color: #1A1A1A;\n            font-weight: 400; }\n            .header-toolbar__inner__popover .profile-menu li a span {\n              font-size: 14px;\n              position: relative;\n              top: -6px; }\n            .header-toolbar__inner__popover .profile-menu li a i.fa-external-link-alt {\n              vertical-align: unset;\n              height: -webkit-fit-content;\n              height: -moz-fit-content;\n              height: fit-content;\n              margin-left: 5px; }\n    .header-toolbar > div {\n      padding: 0 20px; }\n  .header #branding {\n    text-transform: uppercase;\n    letter-spacing: 0px;\n    float: left; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
 /***/ 528:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(27)();
+exports = module.exports = __webpack_require__(15)();
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
+
+// module
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.card {\n  padding: 30px 15px 0 15px;\n  border: solid 1px #DFE1E5; }\n\n.card-progress, .card-adminresults, .card-study-support, .card-mycareer {\n  margin-top: 30px; }\n\n.col-top {\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  height: 85px; }\n  .col-top:first-child .card-top {\n    background-color: #00ab4e; }\n  .col-top .card-top {\n    height: 85px;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    padding: 30px 15px; }\n\n.card-top-rhs {\n  background: url(\"https://knowclive.github.io/dashboard/assets/img/promo-bgd.png\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center center;\n  height: 192px;\n  color: #fff;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n  padding-bottom: 15px; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 529:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(15)();
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
+
+// module
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.header {\n  position: relative;\n  height: 68px;\n  margin-left: 260px; }\n  .header-toolbar {\n    height: 68px;\n    line-height: 50px;\n    padding-top: 5px; }\n    .header-toolbar__inner {\n      float: right; }\n      .header-toolbar__inner ul {\n        margin: 0;\n        padding: 0 20px 0 0;\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex; }\n        .header-toolbar__inner ul li {\n          list-style: none;\n          margin: 0;\n          padding: 0 0 0 20px;\n          display: -webkit-box;\n          display: -ms-flexbox;\n          display: flex;\n          position: relative;\n          cursor: pointer; }\n          .header-toolbar__inner ul li label .fa-search {\n            position: absolute;\n            top: 5px;\n            right: 15px; }\n          .header-toolbar__inner ul li .avatar {\n            padding-left: 15px; }\n            .header-toolbar__inner ul li .avatar img {\n              border-radius: 50%; }\n          .header-toolbar__inner ul li .member-details {\n            padding: 0 30px 0 15px; }\n            .header-toolbar__inner ul li .member-details .name {\n              font-weight: 700;\n              position: relative;\n              top: -5px;\n              height: 10px; }\n            .header-toolbar__inner ul li .member-details .memberid {\n              font-size: 14px;\n              position: relative;\n              top: 5px; }\n      .header-toolbar__inner i {\n        height: 45px;\n        line-height: 50px;\n        color: #1A1A1A;\n        vertical-align: top;\n        font-size: 20px; }\n      .header-toolbar__inner label {\n        margin: 0;\n        padding: 0;\n        vertical-align: top; }\n        .header-toolbar__inner label i {\n          position: absolute;\n          top: 0;\n          right: 0; }\n        .header-toolbar__inner label input {\n          margin: 0;\n          padding: 0;\n          -moz-appearance: none;\n          -webkit-appearance: none;\n          border: 1px solid #fff;\n          font-size: 14px;\n          text-align: left;\n          width: 0;\n          height: 25px;\n          transition: 0.1s border linear, 0.25s width linear; }\n          .header-toolbar__inner label input:focus {\n            border: 2px solid #DFE1E5;\n            border-radius: 3px;\n            outline: none;\n            width: 650px;\n            height: 60px;\n            transition: 0.1s border linear, 0.25s width linear;\n            padding-left: 15px; }\n      .header-toolbar__inner__popover .profile-menu {\n        display: -webkit-box;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        width: 280px;\n        padding: 15px;\n        font-size: 18px;\n        box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.1);\n        border-radius: 3px; }\n        .header-toolbar__inner__popover .profile-menu li {\n          padding: 10px 0; }\n          .header-toolbar__inner__popover .profile-menu li a {\n            color: #1A1A1A;\n            font-weight: 400; }\n            .header-toolbar__inner__popover .profile-menu li a span {\n              font-size: 14px;\n              position: relative;\n              top: -6px; }\n            .header-toolbar__inner__popover .profile-menu li a i.fa-external-link-alt {\n              vertical-align: unset;\n              height: -webkit-fit-content;\n              height: -moz-fit-content;\n              height: fit-content;\n              margin-left: 5px; }\n    .header-toolbar > div {\n      padding: 0 20px; }\n  .header #branding {\n    text-transform: uppercase;\n    letter-spacing: 0px;\n    float: left; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 530:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(15)();
 // imports
 
 
@@ -823,51 +963,15 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 529:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(27)();
-// imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
-
-// module
-exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p {\n    font-size: 18px; } }\n\n.row {\n  padding-top: 15px; }\n\n.drawer {\n  border-bottom: 1px solid #DFE1E5;\n  border-top: 1px solid #DFE1E5;\n  cursor: pointer; }\n  .drawer p {\n    color: #00ab4e;\n    font-weight: 700; }\n    .drawer p:hover {\n      color: #006578;\n      text-decoration: underline; }\n\n.module-title {\n  position: relative;\n  left: 15px;\n  font-size: 14px; }\n\n.fa-check-circle {\n  color: #00883E;\n  font-size: 20px; }\n\n.fa-check {\n  font-size: 16px; }\n\n.accordion {\n  padding: 0;\n  max-height: 0;\n  overflow: hidden;\n  transition: all 0.8s ease; }\n  .accordion .row {\n    padding-bottom: 15px;\n    border-bottom: 1px solid #DFE1E5; }\n\n.accordion.open {\n  max-height: 400px;\n  margin-left: -15px;\n  margin-right: -15px;\n  padding: 0 15px; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 530:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(27)();
-// imports
-exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
-
-// module
-exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p {\n    font-size: 18px; } }\n\n.bannerStyle h1 {\n  background-color: #ccc;\n  min-height: 300px;\n  text-align: center;\n  line-height: 300px; }\n\n.leftRs {\n  position: absolute;\n  margin: auto;\n  top: -80px;\n  bottom: 0;\n  width: 42px;\n  height: 42px;\n  border-radius: 999px;\n  left: 0; }\n\n.rightRs {\n  position: absolute;\n  margin: auto;\n  top: -80px;\n  bottom: 0;\n  width: 42px;\n  height: 42px;\n  border-radius: 999px;\n  right: 0; }\n\n.ngxcarouselPoint li {\n  color: hotpink !important;\n  display: inline-block;\n  border-radius: 0;\n  background: #00ab4e;\n  padding: 4px;\n  margin: 0 4px;\n  transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);\n  transition: 0.4s; }\n\n.ngxcarouselPoint .active {\n  background: #00ab4e;\n  -webkit-transform: scale(1.8);\n          transform: scale(1.8); }\n\nngx-item {\n  text-align: center; }\n  ngx-item img {\n    margin-bottom: 15px; }\n", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
 /***/ 531:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(27)();
+exports = module.exports = __webpack_require__(15)();
 // imports
 
 
 // module
-exports.push([module.i, "@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p {\n    font-size: 18px; } }\n", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -877,63 +981,149 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 540:
-/***/ (function(module, exports) {
+/***/ 532:
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<!--<h1>-->\n<!--{{title}}-->\n<!--</h1>-->\n\n<!--<ul>-->\n<!--<li><a [routerLink]=\"['home']\" routerLinkActive=\"active\">Home</a></li>-->\n<!--<li><a [routerLink]=\"['about']\" routerLinkActive=\"active\">About</a></li>-->\n<!--<li><a [routerLink]=\"['contact']\" routerLinkActive=\"active\">Contact</a></li>-->\n<!--</ul>-->\n\n<!--<button class=\"btn btn-success\" style=\"margin-left:80px;\" [@myTrigger]=\"state\" (click)=\"toggleState()\">My Button</button>-->\n<!--<button class=\"btn btn-success\" style=\"margin-left:80px;\" (click)=\"toggleState()\" [@removeMe]=\"btnState\">My Button</button>-->\n\n<!--<ul>-->\n<!--&lt;!&ndash;<li *ngFor=\"let item of items\" [@myTrigger]=\"state\">{{ item }}</li>&ndash;&gt;-->\n<!--<li *ngFor=\"let item of items\" [@myTrigger]=\"state\" (@myTrigger.start)=\"animStart($event)\" (@myTrigger.done)=\"animDone($event)\">{{ item }}</li>-->\n<!--</ul>-->\n\n<!--<p>{{ animDetails }}</p>-->\n\n<!--<page></page>-->\n\n\n<div class=\"main-wrapper\">\n\n    <dashboard-header></dashboard-header>\n    <!--header-->\n\n    <aside class=\"sidebar\">\n\n        <div class=\"sidebar-main\">\n            <div class=\"sidebar-main-icons\">\n                <div class=\"sidebar-main-icons-brand\">\n                    <img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n                         title=\"AAT Home\" width=\"69\">\n                </div>\n\n                <ul>\n                    <li><i class=\"fas fa-home\"></i></li>\n                    <li><i class=\"far fa-clipboard\"></i></li>\n                    <li><i class=\"far fa-life-ring\"></i></li>\n                    <li><i class=\"fas fa-suitcase\"></i></li>\n                    <li><i class=\"fas fa-users\"></i></li>\n                    <li><i class=\"fas fa-id-card\"></i></li>\n                    <li><i class=\"far fa-newspaper\"></i></li>\n                </ul>\n            </div>\n            <!--sidebar-main-icons-->\n\n            <div class=\"sidebar-main__menu\" [@sideMenuAnime]=\"openClose\">\n                <button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-left\"></i></button>\n                <ul>\n                    <li>MyAAT</li>\n                    <li>Training and assessment</li>\n                    <li>Professional zone</li>\n                    <li>My career</li>\n                    <li>Support resources</li>\n                    <li>My membership</li>\n                    <li>News and events</li>\n                </ul>\n\n            </div>\n            <!--sidebar-main__menu-->\n        </div>\n        <!--Sidebar container-->\n\n    </aside>\n    <!--sidebar-->\n\n\n    <div class=\"hero container-fluid\" [@heroAnime]=\"openClose\">\n        <h1 class=\"myaat-h1\">Hello John</h1>\n        <p>Welcome to your dashboard, notice anything new?</p>\n    </div>\n    <!--hero-->\n\n    <article class=\"dashboard\" [@mainContainerAnime]=\"openClose\">\n        <button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-right\"></i></button>\n\n        <dashboard-content class=\"container-fluid\"></dashboard-content>\n\n    </article>\n\n\n    <router-outlet></router-outlet>\n</div>\n<!--main wrapper-->\n"
+exports = module.exports = __webpack_require__(15)();
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
-/***/ }),
+// module
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.row {\n  padding-top: 15px; }\n\n.drawer {\n  border-bottom: 1px solid #DFE1E5;\n  border-top: 1px solid #DFE1E5;\n  cursor: pointer; }\n  .drawer p {\n    color: #00ab4e;\n    font-weight: 700; }\n    .drawer p:hover {\n      color: #006578;\n      text-decoration: underline; }\n\n.module-title {\n  position: relative;\n  left: 15px;\n  font-size: 14px; }\n\n.fa-check-circle {\n  color: #00883E;\n  font-size: 20px; }\n\n.fa-check {\n  font-size: 16px; }\n\n.accordion {\n  padding: 0;\n  max-height: 0;\n  overflow: hidden;\n  transition: all 0.8s ease; }\n  .accordion .row {\n    padding-bottom: 15px;\n    border-bottom: 1px solid #DFE1E5; }\n\n.accordion.open {\n  max-height: 400px;\n  margin-left: -15px;\n  margin-right: -15px;\n  padding: 0 15px; }\n", ""]);
 
-/***/ 541:
-/***/ (function(module, exports) {
+// exports
 
-module.exports = "<a class=\"edit-link\" href=\"#\">Edit</a>\n\n<h3>{{ adminresults.title }}</h3>\n\n<p>{{ adminresults.summary }}</p>\n\n<div class=\"row\">\n    <div class=\"col-md-7\">\n        <dashboard-resultscarousel></dashboard-resultscarousel>\n    </div>\n    <div class=\"col-md-5\">\n        <ul>\n            <li><a href=\"\">All assessment results</a></li>\n            <li><a href=\"\">Statement of achievement</a></li>\n            <li><a href=\"\">Find a venue to sit your assessment</a></li>\n        </ul>\n    </div>\n</div>\n"
 
-/***/ }),
-
-/***/ 542:
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"row\">\n    <div class=\"col-md-4 col-top\">\n        <div class=\"card card-top\">\n            <h4 class=\"h4\">{{ dashcontent.heading1 }}</h4>\n        </div>\n    </div>\n    <div class=\"col-md-4 col-top\">\n        <div class=\"card card-top\">\n            <h4 class=\"h4\"><i class=\"far fa-star\">&nbsp;&nbsp;</i>{{ dashcontent.heading2 }}</h4>\n        </div>\n    </div>\n    <div class=\"col-md-4\">\n        <div class=\"card card-top-rhs\">\n            <h4 class=\"h4\">{{ dashcontent.heading3 }}</h4>\n        </div>\n    </div>\n</div>\n<!--top row-->\n\n<div class=\"row\">\n    <div class=\"col-md-8\">\n        <div class=\"card card-progress\">\n            <dashboard-myprogress></dashboard-myprogress>\n        </div>\n        <div class=\"card card-adminresults\">\n            <dashboard-adminresults></dashboard-adminresults>\n        </div>\n        <div class=\"card\">{{ dashcontent.heading6 }}</div>\n        <div class=\"card\">{{ dashcontent.heading7 }}</div>\n    </div>\n    <div class=\"col-md-4\">\n        <div class=\"card\">{{ dashcontent.heading8 }}</div>\n    </div>\n</div>\n<!--second row-->"
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 543:
-/***/ (function(module, exports) {
+/***/ 533:
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "<header class=\"header\">\n  <div class=\"header-toolbar\">\n    <nav class=\"header-toolbar__inner\">\n      <ul>\n        <li>\n          <label>\n            <i class=\"fas fa-search\"></i>\n            <input type=\"search\" name=\"search\" placeholder=\"Search AAT...\">\n          </label>\n        </li>\n        <li [popover]=\"myPopover\">\n          <div class=\"avatar\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/john-snow.jpg\" alt=\"\" width=\"48\" height=\"48\">\n          </div>\n\n          <div class=\"member-details\">\n            <div class=\"name\">{{ header.firstname + ' ' + header.lastname}}</div>\n            <div class=\"memberid\">Membership number: 12345678</div>\n          </div>\n\n          <i class=\"fas fa-ellipsis-v\"></i>\n\n        </li>\n      </ul>\n      <popover-content #myPopover\n                       title=\"\"\n                       [closeOnClickOutside]=\"true\"\n                       class=\"header-toolbar__inner__popover\">\n        <ul class=\"profile-menu\">\n          <li><a href=\"\">Profile and account</a></li>\n          <li><a href=\"\">Student membership<br><span>Change role</span></a></li>\n          <li><a href=\"\">Edit my details</a></li>\n          <li><a href=\"\" class=\"ext-link\">Visit the AAT website <i class=\"fas fa-external-link-alt\"></i></a></li>\n          <li><a href=\"\">Log out</a></li>\n        </ul>\n      </popover-content>\n    </nav>\n\n  </div>\n</header>"
+exports = module.exports = __webpack_require__(15)();
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
+
+// module
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.bannerStyle h1 {\n  background-color: #ccc;\n  min-height: 300px;\n  text-align: center;\n  line-height: 300px; }\n\n.leftRs {\n  position: absolute;\n  margin: auto;\n  top: -80px;\n  bottom: 0;\n  width: 42px;\n  height: 42px;\n  border-radius: 999px;\n  left: 0; }\n\n.rightRs {\n  position: absolute;\n  margin: auto;\n  top: -80px;\n  bottom: 0;\n  width: 42px;\n  height: 42px;\n  border-radius: 999px;\n  right: 0; }\n\nngx-item {\n  text-align: center; }\n  ngx-item img {\n    margin-bottom: 15px; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 534:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(15)();
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
+
+// module
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.card-mini {\n  border: 1px solid #DFE1E5;\n  overflow: hidden;\n  margin-bottom: 15px; }\n  .card-mini p {\n    display: inline-block;\n    padding: 10px; }\n  .card-mini img {\n    float: right; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 535:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(15)();
+// imports
+
+
+// module
+exports.push([module.i, "@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
 
 /***/ }),
 
 /***/ 544:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  hero works!\n</p>\n"
+module.exports = "<!--<h1>-->\n<!--{{title}}-->\n<!--</h1>-->\n\n<!--<ul>-->\n<!--<li><a [routerLink]=\"['home']\" routerLinkActive=\"active\">Home</a></li>-->\n<!--<li><a [routerLink]=\"['about']\" routerLinkActive=\"active\">About</a></li>-->\n<!--<li><a [routerLink]=\"['contact']\" routerLinkActive=\"active\">Contact</a></li>-->\n<!--</ul>-->\n\n<!--<button class=\"btn btn-success\" style=\"margin-left:80px;\" [@myTrigger]=\"state\" (click)=\"toggleState()\">My Button</button>-->\n<!--<button class=\"btn btn-success\" style=\"margin-left:80px;\" (click)=\"toggleState()\" [@removeMe]=\"btnState\">My Button</button>-->\n\n<!--<ul>-->\n<!--&lt;!&ndash;<li *ngFor=\"let item of items\" [@myTrigger]=\"state\">{{ item }}</li>&ndash;&gt;-->\n<!--<li *ngFor=\"let item of items\" [@myTrigger]=\"state\" (@myTrigger.start)=\"animStart($event)\" (@myTrigger.done)=\"animDone($event)\">{{ item }}</li>-->\n<!--</ul>-->\n\n<!--<p>{{ animDetails }}</p>-->\n\n<!--<page></page>-->\n\n\n<div class=\"main-wrapper\">\n\n    <dashboard-header></dashboard-header>\n    <!--header-->\n\n    <aside class=\"sidebar\">\n\n        <div class=\"sidebar-main\">\n            <div class=\"sidebar-main-icons\">\n                <div class=\"sidebar-main-icons-brand\">\n                    <img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n                         title=\"AAT Home\" width=\"69\">\n                </div>\n\n                <ul>\n                    <li><i class=\"fas fa-home\"></i></li>\n                    <li><i class=\"far fa-clipboard\"></i></li>\n                    <li><i class=\"far fa-life-ring\"></i></li>\n                    <li><i class=\"fas fa-suitcase\"></i></li>\n                    <li><i class=\"fas fa-users\"></i></li>\n                    <li><i class=\"fas fa-id-card\"></i></li>\n                    <li><i class=\"far fa-newspaper\"></i></li>\n                </ul>\n            </div>\n            <!--sidebar-main-icons-->\n\n            <div class=\"sidebar-main__menu\" [@sideMenuAnime]=\"openClose\">\n                <button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-left\"></i></button>\n                <ul>\n                    <li>MyAAT</li>\n                    <li>Training and assessment</li>\n                    <li>Professional zone</li>\n                    <li>My career</li>\n                    <li>Support resources</li>\n                    <li>My membership</li>\n                    <li>News and events</li>\n                </ul>\n\n            </div>\n            <!--sidebar-main__menu-->\n        </div>\n        <!--Sidebar container-->\n\n    </aside>\n    <!--sidebar-->\n\n\n    <div class=\"hero container-fluid\" [@heroAnime]=\"openClose\">\n        <h1 class=\"myaat-h1\">Hello John</h1>\n        <p>Welcome to your dashboard, notice anything new?</p>\n    </div>\n    <!--hero-->\n\n    <article class=\"dashboard\" [@mainContainerAnime]=\"openClose\">\n        <button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-right\"></i></button>\n\n        <dashboard-content class=\"container-fluid\"></dashboard-content>\n\n    </article>\n\n\n    <router-outlet></router-outlet>\n</div>\n<!--main wrapper-->\n"
 
 /***/ }),
 
 /***/ 545:
 /***/ (function(module, exports) {
 
-module.exports = "<a class=\"edit-link\" href=\"#\">Edit</a>\n<h3>{{ myprogress.title }}</h3>\n\n\n<p>{{ myprogress.summary }}</p>\n\n<div class=\"row drawer\" (click)=\"isClassVisible1 = !isClassVisible1;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item1.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-success\">{{ myprogress.item1.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item1.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"fas fa-check-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible1 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item1.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item1.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible2 = !isClassVisible2;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item2.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-success\">{{ myprogress.item2.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item2.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"fas fa-check-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible2 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible3 = !isClassVisible3;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item3.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-my-progress\">{{ myprogress.item3.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item3.status }}</span></div>\n    <div class=\"col-md-1\"><img src=\"https://knowclive.github.io/dashboard/assets/img/my-progress.svg\" alt=\"\"></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible3 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item3.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item3.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item3.module.title3 }}</span></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible4 = !isClassVisible4;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item4.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-pending\">{{ myprogress.item4.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item4.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"far fa-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible4 }\">\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item4.module.title1 }}</span></div>\n\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item4.module.title2 }}</span></div>\n\n    </div>\n</div>\n\n\n\n\n<!-- User input add new items functionality-->\n\n<!--<div>-->\n    <!--<h2> Grocery list manager </h2>-->\n\n    <!--<ul class=\"list-group\">-->\n        <!--<li *ngFor=\"let task of tasks\" class=\"list-group-item\">-->\n            <!--<span> {{ task.name }} </span>-->\n        <!--</li>-->\n    <!--</ul>-->\n\n\n    <!--<div class=\"row\">-->\n        <!--<div class=\"col-xs-6 col-md-4\">-->\n            <!--<div class=\"input-group\">-->\n                <!--<input type=\"text\" class=\"form-control\" placeholder=\"enter grocery items\" [(ngModel)]=\"task\" />-->\n                <!--<div class=\"input-group-btn\">-->\n                    <!--<button class=\"btn btn-primary\" type=\"button\" (click)=\"onClick()\">-->\n                        <!--<span class=\"glyphicon glyphicon-ok\"></span>-->\n                    <!--</button>-->\n                <!--</div>-->\n            <!--</div>-->\n        <!--</div>-->\n    <!--</div>-->\n\n<!--</div>-->"
+module.exports = "<a class=\"edit-link\" href=\"#\">Edit</a>\n\n<h3>{{ adminresults.title }}</h3>\n\n<p>{{ adminresults.summary }}</p>\n\n<div class=\"row\">\n    <div class=\"col-md-7\">\n        <dashboard-resultscarousel></dashboard-resultscarousel>\n    </div>\n    <div class=\"col-md-5\">\n        <ul>\n            <li><a href=\"\">All assessment results</a></li>\n            <li><a href=\"\">Statement of achievement</a></li>\n            <li><a href=\"\">Find a venue to sit your assessment</a></li>\n        </ul>\n    </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 546:
 /***/ (function(module, exports) {
 
-module.exports = "<ngx-carousel\n        [inputs]=\"carouselOne\"\n        (carouselLoad)=\"myfunc($event)\">\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Passed BK AQ Congrats.</h4>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Oh no BK AQ sad face :(</h4>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Almost there BK AQ try harder</h4>\n    </ngx-item>\n    <button NgxCarouselPrev class='leftRs'>&lt;</button>\n    <button NgxCarouselNext class='rightRs'>&gt;</button>\n</ngx-carousel>\n"
+module.exports = "<div class=\"row\">\n    <div class=\"col-md-4 col-top\">\n        <div class=\"card card-top\">\n            <h4 class=\"h4\">{{ dashcontent.heading1 }}</h4>\n        </div>\n    </div>\n    <div class=\"col-md-4 col-top\">\n        <div class=\"card card-top\">\n            <h4 class=\"h4\"><i class=\"far fa-star\">&nbsp;&nbsp;</i>{{ dashcontent.heading2 }}</h4>\n        </div>\n    </div>\n    <div class=\"col-md-4\">\n        <div class=\"card card-top-rhs\">\n            <h4 class=\"h4\">{{ dashcontent.heading3 }}</h4>\n        </div>\n    </div>\n</div>\n<!--top row-->\n\n<div class=\"row\">\n    <div class=\"col-md-8\">\n        <div class=\"card card-progress\">\n            <dashboard-myprogress></dashboard-myprogress>\n        </div>\n        <div class=\"card card-adminresults\">\n            <dashboard-adminresults></dashboard-adminresults>\n        </div>\n        <div class=\"card card-study-support\">\n            <dashboard-studysupport></dashboard-studysupport>\n        </div>\n        <div class=\"card card-mycareer\">\n            <dashboard-mycareer></dashboard-mycareer>\n        </div>\n    </div>\n    <div class=\"col-md-4\">\n        <div class=\"card\">{{ dashcontent.heading8 }}</div>\n    </div>\n</div>\n<!--second row-->"
 
 /***/ }),
 
 /***/ 547:
 /***/ (function(module, exports) {
 
+module.exports = "<header class=\"header\">\n  <div class=\"header-toolbar\">\n    <nav class=\"header-toolbar__inner\">\n      <ul>\n        <li>\n          <label>\n            <i class=\"fas fa-search\"></i>\n            <input type=\"search\" name=\"search\" placeholder=\"Search AAT...\">\n          </label>\n        </li>\n        <li [popover]=\"myPopover\">\n          <div class=\"avatar\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/john-snow.jpg\" alt=\"\" width=\"48\" height=\"48\">\n          </div>\n\n          <div class=\"member-details\">\n            <div class=\"name\">{{ header.firstname + ' ' + header.lastname}}</div>\n            <div class=\"memberid\">Membership number: 12345678</div>\n          </div>\n\n          <i class=\"fas fa-ellipsis-v\"></i>\n\n        </li>\n      </ul>\n      <popover-content #myPopover\n                       title=\"\"\n                       [closeOnClickOutside]=\"true\"\n                       class=\"header-toolbar__inner__popover\">\n        <ul class=\"profile-menu\">\n          <li><a href=\"\">Profile and account</a></li>\n          <li><a href=\"\">Student membership<br><span>Change role</span></a></li>\n          <li><a href=\"\">Edit my details</a></li>\n          <li><a href=\"\" class=\"ext-link\">Visit the AAT website <i class=\"fas fa-external-link-alt\"></i></a></li>\n          <li><a href=\"\">Log out</a></li>\n        </ul>\n      </popover-content>\n    </nav>\n\n  </div>\n</header>"
+
+/***/ }),
+
+/***/ 548:
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  hero works!\n</p>\n"
+
+/***/ }),
+
+/***/ 549:
+/***/ (function(module, exports) {
+
+module.exports = "<a class=\"edit-link\" href=\"#\">See more</a>\n\n<h3>{{ mycareer.heading }}</h3>\n\n<p>{{ mycareer.summary }}</p>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li><a href=\"\">{{ mycareer.link1.title }}</a></li>\n      <li><a href=\"\">{{ mycareer.link2.title }}</a></li>\n    </ul>\n  </div>\n  <div class=\"col-md-6\">\n    <ul>\n      <li><a href=\"\">{{ mycareer.link3.title }}</a></li>\n      <li><a href=\"\">{{ mycareer.link4.title }}</a></li>\n    </ul>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ 550:
+/***/ (function(module, exports) {
+
+module.exports = "<a class=\"edit-link\" href=\"#\">Edit</a>\n<h3>{{ myprogress.title }}</h3>\n\n\n<p>{{ myprogress.summary }}</p>\n\n<div class=\"row drawer\" (click)=\"isClassVisible1 = !isClassVisible1;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item1.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-success\">{{ myprogress.item1.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item1.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"fas fa-check-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible1 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item1.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item1.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible2 = !isClassVisible2;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item2.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-success\">{{ myprogress.item2.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item2.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"fas fa-check-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible2 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible3 = !isClassVisible3;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item3.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-my-progress\">{{ myprogress.item3.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item3.status }}</span></div>\n    <div class=\"col-md-1\"><img src=\"https://knowclive.github.io/dashboard/assets/img/my-progress.svg\" alt=\"\"></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible3 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item3.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item3.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item3.module.title3 }}</span></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible4 = !isClassVisible4;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item4.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-pending\">{{ myprogress.item4.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item4.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"far fa-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible4 }\">\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item4.module.title1 }}</span></div>\n\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item4.module.title2 }}</span></div>\n\n    </div>\n</div>\n\n\n\n\n<!-- User input add new items functionality-->\n\n<!--<div>-->\n    <!--<h2> Grocery list manager </h2>-->\n\n    <!--<ul class=\"list-group\">-->\n        <!--<li *ngFor=\"let task of tasks\" class=\"list-group-item\">-->\n            <!--<span> {{ task.name }} </span>-->\n        <!--</li>-->\n    <!--</ul>-->\n\n\n    <!--<div class=\"row\">-->\n        <!--<div class=\"col-xs-6 col-md-4\">-->\n            <!--<div class=\"input-group\">-->\n                <!--<input type=\"text\" class=\"form-control\" placeholder=\"enter grocery items\" [(ngModel)]=\"task\" />-->\n                <!--<div class=\"input-group-btn\">-->\n                    <!--<button class=\"btn btn-primary\" type=\"button\" (click)=\"onClick()\">-->\n                        <!--<span class=\"glyphicon glyphicon-ok\"></span>-->\n                    <!--</button>-->\n                <!--</div>-->\n            <!--</div>-->\n        <!--</div>-->\n    <!--</div>-->\n\n<!--</div>-->"
+
+/***/ }),
+
+/***/ 551:
+/***/ (function(module, exports) {
+
+module.exports = "<ngx-carousel\n        [inputs]=\"carouselOne\"\n        (carouselLoad)=\"myfunc($event)\">\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Passed BK AQ Congrats.</h4>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Oh no BK AQ sad face :(</h4>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n        <h4>Almost there BK AQ try harder</h4>\n    </ngx-item>\n    <button NgxCarouselPrev class='leftRs'>&lt;</button>\n    <button NgxCarouselNext class='rightRs'>&gt;</button>\n</ngx-carousel>\n"
+
+/***/ }),
+
+/***/ 552:
+/***/ (function(module, exports) {
+
+module.exports = "<a class=\"edit-link\" href=\"#\">Edit</a>\n\n<h3>{{ studysupport.heading }}</h3>\n\n<p>{{ studysupport.summary }}</p>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <!--<ul>-->\n      <!--<li *ngFor=\"let support of supportContent\" class=\"card-mini\">-->\n        <!--<p>{{ support.title }}</p>-->\n        <!--<img [src]=\"support.imageUrl\"  alt=\"\">-->\n      <!--</li>-->\n    <!--</ul>-->\n    <ul>\n      <li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card1.title }}</p><img [src]=\"studysupport.card1.imageUrl\" alt=\"\"></a></li>\n      <li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card2.title }}</p><img [src]=\"studysupport.card2.imageUrl\" alt=\"\"></a></li>\n      <!--<li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card3.title }}</p><img [src]=\"studysupport.card3.imageUrl\" alt=\"\"></a></li>-->\n    </ul>\n  </div>\n  <div class=\"col-md-6\">\n    <ul>\n      <li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card4.title }}</p><img [src]=\"studysupport.card4.imageUrl\" alt=\"\"></a></li>\n      <li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card5.title }}</p><img [src]=\"studysupport.card5.imageUrl\" alt=\"\"></a></li>\n      <!--<li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card6.title }}</p><img [src]=\"studysupport.card6.imageUrl\" alt=\"\"></a></li>-->\n    </ul>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ 553:
+/***/ (function(module, exports) {
+
 module.exports = "<!--<h1 class=\"h1-hero\"> H1 hero</h1>-->\n\n<!--<h1> H1 {{ page.title }}</h1>-->\n\n\n<!--<h2>H2 title</h2>-->\n<!--<h3>H3 title</h3>-->\n<!--<h4>H4 title</h4>-->\n<!--<p> {{ page.subtitle }}</p>-->\n<!--<p> {{ page.content }}</p>-->\n\n<!--<img class=\"fullBg\" fullpage [src]=\"page.image\">-->\n"
 
 /***/ }),
 
-/***/ 581:
+/***/ 587:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(341);
@@ -941,5 +1131,5 @@ module.exports = __webpack_require__(341);
 
 /***/ })
 
-},[581]);
+},[587]);
 //# sourceMappingURL=main.bundle.js.map
