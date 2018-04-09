@@ -8,7 +8,7 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {PageComponent} from './page/page.component';
 import {ContentService} from './shared/services/content.service';
-import {AppRoutingModule} from './app-routing.module';
+// import {AppRoutingModule} from './app-routing.module';
 import {FullpageDirective} from './shared/directives/fullpage.directive';
 import {PopoverModule} from 'ng2-popover';
 import {HeaderComponent} from './components/header/header.component';
@@ -41,7 +41,7 @@ import { MycareerComponent } from './components/mycareer/mycareer.component';
     // BrowserAnimationsModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule,
+    // AppRoutingModule,
     PopoverModule,
     NgxCarouselModule
   ],
