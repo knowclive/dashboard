@@ -22,11 +22,11 @@ export class StudysupportComponent implements OnInit {
     heading: 'Study support',
     summary: 'Access study support resources for all areas of your qualification.',
     card1: {
-      title: 'Search by unit',
+      title: 'Search for study support',
       imageUrl: '/assets/img/studysupport/search-by-unit.png'
     },
     card2: {
-      title: 'Green Light tests',
+      title: 'Study tips on AAT Comment',
       imageUrl: '/assets/img/studysupport/green-light.png'
     },
     card3: {
@@ -34,11 +34,11 @@ export class StudysupportComponent implements OnInit {
       imageUrl: '/assets/img/studysupport/guidance.png'
     },
     card4: {
-      title: 'E-Learning',
+      title: 'Essential study support (ebook)',
       imageUrl: '/assets/img/studysupport/e-learning.png'
     },
     card5: {
-      title: 'Sample assessments',
+      title: 'Ask a question in our forums',
       imageUrl: '/assets/img/studysupport/sample-assess.png'
     },
     card6: {

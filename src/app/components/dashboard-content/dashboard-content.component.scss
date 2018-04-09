@@ -27,6 +27,10 @@
     align-items: center;
     justify-content: center;
     padding: $padding-medium $padding-base;
+
+    a {
+      color: $black;
+    }
   }
 }
 
@@ -41,4 +45,8 @@
   align-items: center;
   justify-content: flex-end;
   padding-bottom: $padding-base;
+
+  a {
+    color: $white;
+  }
 }

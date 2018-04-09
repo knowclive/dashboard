@@ -15,7 +15,7 @@ export class MycareerComponent implements OnInit {
       url: '/'
     },
     link2: {
-      title: 'Build my CV online',
+      title: 'Online CV builder',
       url: '/'
     },
     link3: {
