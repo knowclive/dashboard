@@ -22,6 +22,7 @@ import { ResultscarouselComponent } from './components/resultscarousel/resultsca
 import { StudysupportComponent } from './components/studysupport/studysupport.component';
 import { MycareerComponent } from './components/mycareer/mycareer.component';
 import { NewsupdatesComponent } from './components/newsupdates/newsupdates.component';
+import { EventsComponent } from './components/events/events.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { NewsupdatesComponent } from './components/newsupdates/newsupdates.compo
     ResultscarouselComponent,
     StudysupportComponent,
     MycareerComponent,
-    NewsupdatesComponent
+    NewsupdatesComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
