@@ -46,6 +46,11 @@ a, button {
   }
 }
 
+span.small-text {
+  font-size: $font-size-small;
+  color: $ui-grey-4;
+}
+
 //Global
 .edit-link {
   float: right;

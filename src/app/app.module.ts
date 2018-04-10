@@ -21,6 +21,7 @@ import 'hammerjs';
 import { ResultscarouselComponent } from './components/resultscarousel/resultscarousel.component';
 import { StudysupportComponent } from './components/studysupport/studysupport.component';
 import { MycareerComponent } from './components/mycareer/mycareer.component';
+import { NewsupdatesComponent } from './components/newsupdates/newsupdates.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { MycareerComponent } from './components/mycareer/mycareer.component';
     AdminresultsComponent,
     ResultscarouselComponent,
     StudysupportComponent,
-    MycareerComponent
+    MycareerComponent,
+    NewsupdatesComponent
   ],
   imports: [
     BrowserModule,
