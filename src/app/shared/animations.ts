@@ -22,3 +22,17 @@ export let hero = trigger('heroAnime', [
   transition('open => close', animate('500ms ease-in')),
   transition('close => open', animate('500ms ease-out'))
 ]);
+
+export let mobileMenu = trigger('menuAnimeMobile', [
+  state('mobileIn', style({transform: 'translate3d(0, 0, 0)'})),
+  state('mobileOut', style({transform: 'translate3d(-100%, 0, 0)'})),
+  transition('mobileIn => mobileOut', animate('500ms ease-in')),
+  transition('mobileOut => mobileIn', animate('500ms ease-out'))
+]);
+
+export let mobileMenuIcon = trigger('menuAnimeMobileIcon', [
+  state('mobileIn', style({transform: 'translate3d(220px, 0, 0)'})),
+  state('mobileOut', style({transform: 'translate3d(0, 0, 0)'})),
+  transition('mobileIn => mobileOut', animate('500ms ease-in')),
+  transition('mobileOut => mobileIn', animate('500ms ease-out'))
+]);

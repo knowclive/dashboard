@@ -24,6 +24,8 @@ import { MycareerComponent } from './components/mycareer/mycareer.component';
 import { NewsupdatesComponent } from './components/newsupdates/newsupdates.component';
 import { EventsComponent } from './components/events/events.component';
 import { PrimarypushComponent } from './components/primarypush/primarypush.component';
+import { MobilemenuComponent } from './components/mobilemenu/mobilemenu.component';
+import { HeadermobileComponent } from './components/headermobile/headermobile.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { PrimarypushComponent } from './components/primarypush/primarypush.compo
     MycareerComponent,
     NewsupdatesComponent,
     EventsComponent,
-    PrimarypushComponent
+    PrimarypushComponent,
+    MobilemenuComponent,
+    HeadermobileComponent
   ],
   imports: [
     BrowserModule,

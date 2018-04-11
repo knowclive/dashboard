@@ -1,0 +1,29 @@
+@import '../../../sass/all';
+
+.header-mobile {
+  padding: 6px 0;
+  background: $black;
+
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    a {
+      padding: 0 $padding-medium 0 10%;
+
+      i {
+        color: $white;
+        font-size: 24px;
+      }
+    }
+
+    .avatar-mobile {
+      padding-right: $padding-base;
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+}

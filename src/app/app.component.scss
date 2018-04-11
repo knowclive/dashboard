@@ -97,7 +97,7 @@
 
 //main content
 .dashboard {
-  margin-left: 260px; /* Same as the width of the sidebar */
+  margin-left: 0; /* Same as the width of the sidebar */
 
   button {
     background: transparent;
@@ -116,10 +116,36 @@
       //transform: translateX(44px);
     }
   }
+
+//  Breakpoints
+  @include breakpoint (fromMedium) {
+    margin-left: 260px; /* Same as the width of the sidebar */
+  }
 }
 
 dashboard-content {
   display: block;
   position: relative;
   top: -160px;
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+  top: -43px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 88px;
+  //height: 96px;
+  //text-indent: -9999px;
+  cursor: pointer;
+  outline: none;
+  background: $black;
+  border: 0;
+  color: $white;
+
+  i {
+    font-size: 24px;
+  }
 }

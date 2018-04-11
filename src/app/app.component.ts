@@ -1,5 +1,5 @@
 import {Component, trigger, state, style, transition, animate, keyframes, ChangeDetectorRef} from '@angular/core';
-import {sidemenu, mainContainer, hero} from './shared/animations';
+import {sidemenu, mainContainer, hero, mobileMenu, mobileMenuIcon} from './shared/animations';
 
 
 @Component({
@@ -10,7 +10,9 @@ import {sidemenu, mainContainer, hero} from './shared/animations';
     //  These animations are stored in ./shared/animations
     sidemenu,
     mainContainer,
-    hero
+    hero,
+    mobileMenu,
+    mobileMenuIcon
     // trigger('myTrigger', [
     //   state('small', style({
     //     transform: 'scale(1)'
@@ -66,6 +68,13 @@ export class AppComponent {
     this.openClose = (this.openClose === 'open') ? 'close' : 'open';
 
     // alert('alert hideshow' + this.openClose);
+  }
+
+  menuState: string = 'mobileOut';
+
+  hideShowMobileMenu() {
+    // 1-line if statement that toggles the value:
+    this.menuState = this.menuState === 'mobileOut' ? 'mobileIn' : 'mobileOut';
   }
 
   // state: string = 'fadein';
