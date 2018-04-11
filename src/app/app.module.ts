@@ -23,6 +23,7 @@ import { StudysupportComponent } from './components/studysupport/studysupport.co
 import { MycareerComponent } from './components/mycareer/mycareer.component';
 import { NewsupdatesComponent } from './components/newsupdates/newsupdates.component';
 import { EventsComponent } from './components/events/events.component';
+import { PrimarypushComponent } from './components/primarypush/primarypush.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { EventsComponent } from './components/events/events.component';
     StudysupportComponent,
     MycareerComponent,
     NewsupdatesComponent,
-    EventsComponent
+    EventsComponent,
+    PrimarypushComponent
   ],
   imports: [
     BrowserModule,
