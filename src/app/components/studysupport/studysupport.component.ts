@@ -23,11 +23,12 @@ export class StudysupportComponent implements OnInit {
     summary: 'Access study support resources for all areas of your qualification.',
     card1: {
       title: 'Search for study support',
-      imageUrl: '/assets/img/studysupport/search-by-unit.png'
+      imageUrl: 'https://knowclive.github.io/dashboard/assets/img/studysupport/search-by-unit.png'
+      // imageUrl: '/assets/img/studysupport/search-by-unit.png'
     },
     card2: {
       title: 'Study tips on AAT Comment',
-      imageUrl: '/assets/img/studysupport/green-light.png'
+      imageUrl: 'https://knowclive.github.io/dashboard/assets/img/studysupport/green-light.png'
     },
     card3: {
       title: 'Guidance',
@@ -35,15 +36,15 @@ export class StudysupportComponent implements OnInit {
     },
     card4: {
       title: 'Essential study support (ebook)',
-      imageUrl: '/assets/img/studysupport/e-learning.png'
+      imageUrl: 'https://knowclive.github.io/dashboard/assets/img/studysupport/e-learning.png'
     },
     card5: {
       title: 'Ask a question in our forums',
-      imageUrl: '/assets/img/studysupport/sample-assess.png'
+      imageUrl: 'https://knowclive.github.io/dashboard/assets/img/studysupport/sample-assess.png'
     },
     card6: {
       title: 'Events and networking',
-      imageUrl: '/assets/img/studysupport/events.png'
+      imageUrl: 'https://knowclive.github.io/dashboard/assets/img/studysupport/events.png'
     },
   };
 
