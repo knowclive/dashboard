@@ -149,3 +149,10 @@ dashboard-content {
     font-size: 24px;
   }
 }
+
+.main-wrapper-small {
+  // Momentum scrolling for mobile: https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}

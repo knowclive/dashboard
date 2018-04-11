@@ -98,3 +98,16 @@ span.small-text {
     }
   }
 }
+
+// Overriding styles for popover user menu on mobile
+.header-mobile {
+  &__popover {
+
+    div[style] {
+      top: 60px !important;
+      padding: $padding-medium;
+      transform: translate(-80px);
+      width: 222px;
+    }
+  }
+}
