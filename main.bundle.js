@@ -71,7 +71,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(427);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(459);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(477);
 
 
 
@@ -89,7 +89,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_animations__ = __webpack_require__(474);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_animations__ = __webpack_require__(475);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -118,8 +118,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-root',
-            template: __webpack_require__(553),
-            styles: [__webpack_require__(530)],
+            template: __webpack_require__(555),
+            styles: [__webpack_require__(531)],
             animations: [
                 //  These animations are stored in ./shared/animations
                 __WEBPACK_IMPORTED_MODULE_1__shared_animations__["a" /* sidemenu */],
@@ -146,27 +146,28 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(417);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(423);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(458);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__page_page_component__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__page_page_component__ = __webpack_require__(474);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__shared_services_content_service__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__shared_directives_fullpage_directive__ = __webpack_require__(475);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_popover__ = __webpack_require__(545);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__shared_directives_fullpage_directive__ = __webpack_require__(476);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_popover__ = __webpack_require__(547);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_ng2_popover___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_ng2_popover__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_header_header_component__ = __webpack_require__(463);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_hero_hero_component__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_header_header_component__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_hero_hero_component__ = __webpack_require__(466);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_dashboard_content_dashboard_content_component__ = __webpack_require__(461);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_myprogress_myprogress_component__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_myprogress_myprogress_component__ = __webpack_require__(469);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_adminresults_adminresults_component__ = __webpack_require__(460);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ngx_carousel__ = __webpack_require__(546);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_ngx_carousel__ = __webpack_require__(548);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_hammerjs__ = __webpack_require__(314);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_hammerjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_hammerjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_resultscarousel_resultscarousel_component__ = __webpack_require__(471);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_studysupport_studysupport_component__ = __webpack_require__(472);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_mycareer_mycareer_component__ = __webpack_require__(467);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_newsupdates_newsupdates_component__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_resultscarousel_resultscarousel_component__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_studysupport_studysupport_component__ = __webpack_require__(473);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_mycareer_mycareer_component__ = __webpack_require__(468);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_newsupdates_newsupdates_component__ = __webpack_require__(470);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_events_events_component__ = __webpack_require__(462);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_primarypush_primarypush_component__ = __webpack_require__(470);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_mobilemenu_mobilemenu_component__ = __webpack_require__(466);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_headermobile_headermobile_component__ = __webpack_require__(464);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_primarypush_primarypush_component__ = __webpack_require__(471);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_mobilemenu_mobilemenu_component__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_headermobile_headermobile_component__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_footer_footer_component__ = __webpack_require__(463);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -177,6 +178,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -222,7 +224,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_20__components_events_events_component__["a" /* EventsComponent */],
                 __WEBPACK_IMPORTED_MODULE_21__components_primarypush_primarypush_component__["a" /* PrimarypushComponent */],
                 __WEBPACK_IMPORTED_MODULE_22__components_mobilemenu_mobilemenu_component__["a" /* MobilemenuComponent */],
-                __WEBPACK_IMPORTED_MODULE_23__components_headermobile_headermobile_component__["a" /* HeadermobileComponent */]
+                __WEBPACK_IMPORTED_MODULE_23__components_headermobile_headermobile_component__["a" /* HeadermobileComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__components_footer_footer_component__["a" /* FooterComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -272,8 +275,8 @@ var AdminresultsComponent = (function () {
     AdminresultsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-adminresults',
-            template: __webpack_require__(554),
-            styles: [__webpack_require__(531)]
+            template: __webpack_require__(556),
+            styles: [__webpack_require__(532)]
         }), 
         __metadata('design:paramtypes', [])
     ], AdminresultsComponent);
@@ -317,8 +320,8 @@ var DashboardContentComponent = (function () {
     DashboardContentComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-content',
-            template: __webpack_require__(555),
-            styles: [__webpack_require__(532)]
+            template: __webpack_require__(557),
+            styles: [__webpack_require__(533)]
         }), 
         __metadata('design:paramtypes', [])
     ], DashboardContentComponent);
@@ -352,8 +355,8 @@ var EventsComponent = (function () {
     EventsComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-events',
-            template: __webpack_require__(556),
-            styles: [__webpack_require__(533)]
+            template: __webpack_require__(558),
+            styles: [__webpack_require__(534)]
         }), 
         __metadata('design:paramtypes', [])
     ], EventsComponent);
@@ -364,6 +367,41 @@ var EventsComponent = (function () {
 /***/ }),
 
 /***/ 463:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FooterComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var FooterComponent = (function () {
+    function FooterComponent() {
+    }
+    FooterComponent.prototype.ngOnInit = function () {
+    };
+    FooterComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'dashboard-footer',
+            template: __webpack_require__(559),
+            styles: [__webpack_require__(535)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], FooterComponent);
+    return FooterComponent;
+}());
+//# sourceMappingURL=footer.component.js.map
+
+/***/ }),
+
+/***/ 464:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -392,8 +430,8 @@ var HeaderComponent = (function () {
     HeaderComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-header',
-            template: __webpack_require__(557),
-            styles: [__webpack_require__(534)]
+            template: __webpack_require__(560),
+            styles: [__webpack_require__(536)]
         }), 
         __metadata('design:paramtypes', [])
     ], HeaderComponent);
@@ -403,7 +441,7 @@ var HeaderComponent = (function () {
 
 /***/ }),
 
-/***/ 464:
+/***/ 465:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -427,8 +465,8 @@ var HeadermobileComponent = (function () {
     HeadermobileComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-headermobile',
-            template: __webpack_require__(558),
-            styles: [__webpack_require__(535)]
+            template: __webpack_require__(561),
+            styles: [__webpack_require__(537)]
         }), 
         __metadata('design:paramtypes', [])
     ], HeadermobileComponent);
@@ -438,7 +476,7 @@ var HeadermobileComponent = (function () {
 
 /***/ }),
 
-/***/ 465:
+/***/ 466:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -462,8 +500,8 @@ var HeroComponent = (function () {
     HeroComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-hero',
-            template: __webpack_require__(559),
-            styles: [__webpack_require__(536)]
+            template: __webpack_require__(562),
+            styles: [__webpack_require__(538)]
         }), 
         __metadata('design:paramtypes', [])
     ], HeroComponent);
@@ -473,7 +511,7 @@ var HeroComponent = (function () {
 
 /***/ }),
 
-/***/ 466:
+/***/ 467:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -497,8 +535,8 @@ var MobilemenuComponent = (function () {
     MobilemenuComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-mobilemenu',
-            template: __webpack_require__(560),
-            styles: [__webpack_require__(537)],
+            template: __webpack_require__(563),
+            styles: [__webpack_require__(539)],
         }), 
         __metadata('design:paramtypes', [])
     ], MobilemenuComponent);
@@ -508,7 +546,7 @@ var MobilemenuComponent = (function () {
 
 /***/ }),
 
-/***/ 467:
+/***/ 468:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -552,8 +590,8 @@ var MycareerComponent = (function () {
     MycareerComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-mycareer',
-            template: __webpack_require__(561),
-            styles: [__webpack_require__(538)]
+            template: __webpack_require__(564),
+            styles: [__webpack_require__(540)]
         }), 
         __metadata('design:paramtypes', [])
     ], MycareerComponent);
@@ -563,7 +601,7 @@ var MycareerComponent = (function () {
 
 /***/ }),
 
-/***/ 468:
+/***/ 469:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -648,8 +686,8 @@ var MyprogressComponent = (function () {
     MyprogressComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-myprogress',
-            template: __webpack_require__(562),
-            styles: [__webpack_require__(539)]
+            template: __webpack_require__(565),
+            styles: [__webpack_require__(541)]
         }), 
         __metadata('design:paramtypes', [])
     ], MyprogressComponent);
@@ -659,7 +697,7 @@ var MyprogressComponent = (function () {
 
 /***/ }),
 
-/***/ 469:
+/***/ 470:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -683,8 +721,8 @@ var NewsupdatesComponent = (function () {
     NewsupdatesComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-newsupdates',
-            template: __webpack_require__(563),
-            styles: [__webpack_require__(540)]
+            template: __webpack_require__(566),
+            styles: [__webpack_require__(542)]
         }), 
         __metadata('design:paramtypes', [])
     ], NewsupdatesComponent);
@@ -694,7 +732,7 @@ var NewsupdatesComponent = (function () {
 
 /***/ }),
 
-/***/ 470:
+/***/ 471:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -718,8 +756,8 @@ var PrimarypushComponent = (function () {
     PrimarypushComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-primarypush',
-            template: __webpack_require__(564),
-            styles: [__webpack_require__(541)]
+            template: __webpack_require__(567),
+            styles: [__webpack_require__(543)]
         }), 
         __metadata('design:paramtypes', [])
     ], PrimarypushComponent);
@@ -729,7 +767,7 @@ var PrimarypushComponent = (function () {
 
 /***/ }),
 
-/***/ 471:
+/***/ 472:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -771,8 +809,8 @@ var ResultscarouselComponent = (function () {
     ResultscarouselComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-resultscarousel',
-            template: __webpack_require__(565),
-            styles: [__webpack_require__(542)]
+            template: __webpack_require__(568),
+            styles: [__webpack_require__(544)]
         }), 
         __metadata('design:paramtypes', [])
     ], ResultscarouselComponent);
@@ -782,7 +820,7 @@ var ResultscarouselComponent = (function () {
 
 /***/ }),
 
-/***/ 472:
+/***/ 473:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -850,8 +888,8 @@ var StudysupportComponent = (function () {
     StudysupportComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'dashboard-studysupport',
-            template: __webpack_require__(566),
-            styles: [__webpack_require__(543)]
+            template: __webpack_require__(569),
+            styles: [__webpack_require__(545)]
         }), 
         __metadata('design:paramtypes', [])
     ], StudysupportComponent);
@@ -861,7 +899,7 @@ var StudysupportComponent = (function () {
 
 /***/ }),
 
-/***/ 473:
+/***/ 474:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -893,8 +931,8 @@ var PageComponent = (function () {
     PageComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'page',
-            template: __webpack_require__(567),
-            styles: [__webpack_require__(544)]
+            template: __webpack_require__(570),
+            styles: [__webpack_require__(546)]
         }), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* ActivatedRoute */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* ActivatedRoute */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__shared_services_content_service__["a" /* ContentService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__shared_services_content_service__["a" /* ContentService */]) === 'function' && _b) || Object])
     ], PageComponent);
@@ -905,7 +943,7 @@ var PageComponent = (function () {
 
 /***/ }),
 
-/***/ 474:
+/***/ 475:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -952,7 +990,7 @@ var mobileMenuIcon = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_
 
 /***/ }),
 
-/***/ 475:
+/***/ 476:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1021,7 +1059,7 @@ var FullpageDirective = (function () {
 
 /***/ }),
 
-/***/ 476:
+/***/ 477:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1033,15 +1071,15 @@ var environment = {
 
 /***/ }),
 
-/***/ 530:
+/***/ 531:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
 // module
-exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.hero {\n  height: 282px;\n  z-index: -999;\n  background: #DFE1E5;\n  padding-left: 30px;\n  padding-top: 60px; }\n  .hero p {\n    padding-top: 10px; }\n\n.sidebar {\n  height: 100%;\n  /* Full-height: remove this if you want \"auto\" height */\n  position: fixed;\n  /* Fixed Sidebar (stay in place on scroll) */\n  z-index: 1;\n  /* Stay on top */\n  top: 0;\n  /* Stay at the top */\n  left: 0;\n  overflow-x: hidden;\n  /* Disable horizontal scroll */ }\n  .sidebar-main {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-wrap: nowrap;\n        flex-wrap: nowrap;\n    height: 100%; }\n    .sidebar-main-icons {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 68px;\n              flex: 0 0 68px;\n      max-width: 68px;\n      background: #1A1A1A; }\n      .sidebar-main-icons-brand {\n        padding: 20px 0 0 0;\n        height: 68px; }\n      .sidebar-main-icons ul {\n        color: #fff;\n        opacity: 0.8;\n        text-align: center; }\n        .sidebar-main-icons ul li {\n          padding: 15px;\n          height: 68px; }\n          .sidebar-main-icons ul li i {\n            font-size: 24px; }\n    .sidebar-main__menu {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 192px;\n              flex: 0 0 192px;\n      max-width: 192px;\n      background: #4A4A4A; }\n      .sidebar-main__menu button {\n        background: transparent;\n        border-color: transparent;\n        border-style: none;\n        border-width: 0;\n        padding: 15px 15px 0 0;\n        float: right;\n        position: relative;\n        top: 10px; }\n        .sidebar-main__menu button i.fa-angle-left {\n          color: #fff;\n          font-size: 20px; }\n      .sidebar-main__menu ul {\n        top: 68px;\n        position: relative;\n        color: #fff;\n        opacity: 0.8; }\n        .sidebar-main__menu ul li {\n          padding: 15px;\n          height: 68px; }\n\n.dashboard {\n  margin-left: 0;\n  /* Same as the width of the sidebar */ }\n  .dashboard button {\n    background: transparent;\n    border-color: transparent;\n    border-style: none;\n    border-width: 0;\n    padding: 15px 15px 0 0;\n    float: none;\n    position: absolute;\n    top: 10px;\n    left: 80px; }\n    .dashboard button i.fa-angle-right {\n      color: #1A1A1A;\n      font-size: 20px; }\n  @media (min-width: 992px) {\n    .dashboard {\n      margin-left: 260px;\n      /* Same as the width of the sidebar */ } }\n\ndashboard-content {\n  display: block;\n  position: relative;\n  top: -160px; }\n\n.hamburger {\n  display: block;\n  position: relative;\n  top: -43px;\n  overflow: hidden;\n  margin: 0;\n  padding: 0;\n  width: 88px;\n  cursor: pointer;\n  outline: none;\n  background: #1A1A1A;\n  border: 0;\n  color: #fff; }\n  .hamburger i {\n    font-size: 24px; }\n\n.main-wrapper-small {\n  overflow-y: scroll;\n  /* has to be scroll, not auto */\n  -webkit-overflow-scrolling: touch;\n  height: 100%; }\n", ""]);
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.hero {\n  height: 282px;\n  z-index: -999;\n  background: #DFE1E5;\n  padding-left: 30px;\n  padding-top: 60px; }\n  .hero p {\n    padding-top: 10px; }\n\n.sidebar {\n  height: 100%;\n  /* Full-height: remove this if you want \"auto\" height */\n  position: fixed;\n  /* Fixed Sidebar (stay in place on scroll) */\n  z-index: 1;\n  /* Stay on top */\n  top: 0;\n  /* Stay at the top */\n  left: 0;\n  overflow-x: hidden;\n  /* Disable horizontal scroll */ }\n  .sidebar-main {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -ms-flex-wrap: nowrap;\n        flex-wrap: nowrap;\n    height: 100%; }\n    .sidebar-main-icons {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 68px;\n              flex: 0 0 68px;\n      max-width: 68px;\n      background: #1A1A1A; }\n      .sidebar-main-icons-brand {\n        padding: 20px 0 0 0;\n        height: 68px; }\n      .sidebar-main-icons ul {\n        color: #fff;\n        opacity: 0.8;\n        text-align: center; }\n        .sidebar-main-icons ul .active {\n          border-left: 5px solid #00ab4e; }\n          .sidebar-main-icons ul .active:hover {\n            color: #fff;\n            background: #1A1A1A; }\n        .sidebar-main-icons ul li {\n          padding: 15px;\n          height: 68px;\n          cursor: pointer; }\n          .sidebar-main-icons ul li i {\n            font-size: 24px; }\n    .sidebar-main__menu {\n      -webkit-box-flex: 0;\n          -ms-flex: 0 0 192px;\n              flex: 0 0 192px;\n      max-width: 192px;\n      background: #4A4A4A; }\n      .sidebar-main__menu button {\n        background: transparent;\n        border-color: transparent;\n        border-style: none;\n        border-width: 0;\n        padding: 15px 15px 0 0;\n        float: right;\n        position: relative;\n        top: 10px; }\n        .sidebar-main__menu button i.fa-angle-left {\n          color: #fff;\n          font-size: 20px; }\n      .sidebar-main__menu ul {\n        top: 68px;\n        position: relative;\n        color: #fff;\n        opacity: 0.8;\n        cursor: pointer; }\n        .sidebar-main__menu ul li {\n          padding: 15px;\n          height: 68px; }\n\n.dashboard {\n  margin-left: 0;\n  /* Same as the width of the sidebar */ }\n  .dashboard button {\n    background: transparent;\n    border-color: transparent;\n    border-style: none;\n    border-width: 0;\n    padding: 15px 15px 0 0;\n    float: none;\n    position: absolute;\n    top: 10px;\n    left: 80px; }\n    .dashboard button i.fa-angle-right {\n      color: #1A1A1A;\n      font-size: 20px; }\n  @media (min-width: 992px) {\n    .dashboard {\n      margin-left: 260px;\n      /* Same as the width of the sidebar */ } }\n\ndashboard-content {\n  display: block;\n  position: relative;\n  top: -160px; }\n\n.hamburger {\n  display: block;\n  position: relative;\n  top: -43px;\n  overflow: hidden;\n  margin: 0;\n  padding: 0;\n  width: 88px;\n  cursor: pointer;\n  outline: none;\n  background: #1A1A1A;\n  border: 0;\n  color: #fff; }\n  .hamburger i {\n    font-size: 24px; }\n\n.main-wrapper-small {\n  overflow-y: scroll;\n  /* has to be scroll, not auto */\n  -webkit-overflow-scrolling: touch;\n  height: 100%; }\n", ""]);
 
 // exports
 
@@ -1051,10 +1089,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 531:
+/***/ 532:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 
 
@@ -1069,15 +1107,15 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 532:
+/***/ 533:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
 // module
-exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.card {\n  padding: 30px 15px 0 15px;\n  border: solid 1px #DFE1E5; }\n\n.card-progress, .card-adminresults, .card-study-support, .card-mycareer, dashboard-newsupdates, dashboard-events {\n  margin-top: 30px; }\n\n.col-top {\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  height: 85px; }\n  .col-top:first-child .card-top {\n    background-color: #00ab4e; }\n  .col-top .card-top {\n    height: 85px;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    padding: 30px 15px; }\n    .col-top .card-top a {\n      color: #1A1A1A; }\n\n.card-top-rhs {\n  background: url(\"https://knowclive.github.io/dashboard/assets/img/promo-bgd.png\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center center;\n  height: 192px;\n  color: #fff;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n  padding-bottom: 15px; }\n  .card-top-rhs a {\n    color: #fff; }\n", ""]);
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n.card {\n  padding: 30px 15px 0 15px;\n  border: solid 1px #DFE1E5; }\n\n.card-progress, .card-adminresults, .card-study-support, .card-mycareer, dashboard-newsupdates, dashboard-events {\n  margin-top: 30px; }\n\ndashboard-footer {\n  margin-bottom: -160px;\n  height: 170px; }\n\n.col-top {\n  -ms-flex-item-align: end;\n      align-self: flex-end;\n  height: 85px; }\n  .col-top:first-child .card-top {\n    background-color: #00ab4e; }\n  .col-top .card-top {\n    height: 85px;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    padding: 30px 15px; }\n    .col-top .card-top a {\n      color: #1A1A1A; }\n\n.card-top-rhs {\n  background: url(\"https://knowclive.github.io/dashboard/assets/img/promo-bgd.png\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center center;\n  height: 192px;\n  color: #fff;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n  padding-bottom: 15px; }\n  .card-top-rhs a {\n    color: #fff; }\n", ""]);
 
 // exports
 
@@ -1087,10 +1125,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 533:
+/***/ 534:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1105,10 +1143,28 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 534:
+/***/ 535:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
+// imports
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
+
+// module
+exports.push([module.i, "body {\n  font-family: \"Open Sans\", Arial, Helvetica, sans-serif;\n  font-weight: 400;\n  -webkit-text-size-adjust: 100%; }\n\nh1, h2, h3, h5, h6,\n.h1, .h2, .h3 {\n  font-family: \"Trade Gothic W01\", Arial, Helvetica, sans-serif;\n  margin: 0; }\n\n.myaat-h1, h4, .h4 {\n  font-family: \"Trade Gothic W04\", Arial, Helvetica, sans-serif; }\n\nul li {\n  list-style: none; }\n\n@media (min-width: 320px) {\n  .h1-hero {\n    font-size: 53px; }\n  h1, .h1 {\n    font-size: 34px;\n    color: black; }\n  h2, .h2 {\n    font-size: 27px;\n    font-weight: 100; }\n  h3, .h3 {\n    font-size: 22px;\n    font-weight: 100; }\n  h4, .h4 {\n    font-size: 18px; }\n  p, a {\n    font-size: 14px; } }\n\n@media (min-width: 992px) {\n  .h1-hero {\n    font-size: 61px; }\n  h1 {\n    font-size: 39px; }\n  h2 {\n    font-size: 31px;\n    font-weight: 100; }\n  h3 {\n    font-size: 25px;\n    font-weight: 100; }\n  h4 {\n    font-size: 20px; }\n  p, a {\n    font-size: 16px; } }\n\n@media (min-width: 1200px) {\n  .h1-hero {\n    font-size: 101px; }\n  h1 {\n    font-size: 57px; }\n  h2 {\n    font-size: 43px;\n    font-weight: 100; }\n  h3 {\n    font-size: 32px; }\n  h4 {\n    font-size: 24px !important; }\n  p, a {\n    font-size: 18px; } }\n\n:host {\n  background: #4A4A4A;\n  display: block; }\n  :host .footer {\n    padding: 30px 0 0 30px; }\n    :host .footer__brand {\n      padding-bottom: 15px; }\n    :host .footer ul {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex; }\n    :host .footer__social-links {\n      position: relative;\n      top: 12px; }\n      :host .footer__social-links li {\n        padding-right: 30px; }\n        :host .footer__social-links li i {\n          font-size: 16px; }\n    :host .footer__policies {\n      padding-top: 15px;\n      border-top: 1px solid #fff; }\n      :host .footer__policies ul li {\n        padding-right: 15px; }\n        :host .footer__policies ul li a {\n          color: #fff;\n          font-size: 14px;\n          font-weight: 400; }\n          :host .footer__policies ul li a:hover {\n            color: #fff; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 536:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1123,10 +1179,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 535:
+/***/ 537:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1141,10 +1197,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 536:
+/***/ 538:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 
 
@@ -1159,10 +1215,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 537:
+/***/ 539:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1177,10 +1233,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 538:
+/***/ 540:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1195,10 +1251,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 539:
+/***/ 541:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1213,10 +1269,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 540:
+/***/ 542:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1231,10 +1287,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 541:
+/***/ 543:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1249,10 +1305,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 542:
+/***/ 544:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1267,10 +1323,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 543:
+/***/ 545:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);", ""]);
 
@@ -1285,10 +1341,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 544:
+/***/ 546:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(11)();
+exports = module.exports = __webpack_require__(9)();
 // imports
 
 
@@ -1303,112 +1359,119 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 553:
-/***/ (function(module, exports) {
-
-module.exports = "<!--<h1>-->\n<!--{{title}}-->\n<!--</h1>-->\n\n<!--<ul>-->\n<!--<li><a [routerLink]=\"['home']\" routerLinkActive=\"active\">Home</a></li>-->\n<!--<li><a [routerLink]=\"['about']\" routerLinkActive=\"active\">About</a></li>-->\n<!--<li><a [routerLink]=\"['contact']\" routerLinkActive=\"active\">Contact</a></li>-->\n<!--</ul>-->\n\n<!--<button class=\"btn btn-success\" style=\"margin-left:80px;\" [@myTrigger]=\"state\" (click)=\"toggleState()\">My Button</button>-->\n<!--<button class=\"btn btn-success\" style=\"margin-left:80px;\" (click)=\"toggleState()\" [@removeMe]=\"btnState\">My Button</button>-->\n\n<!--<ul>-->\n<!--&lt;!&ndash;<li *ngFor=\"let item of items\" [@myTrigger]=\"state\">{{ item }}</li>&ndash;&gt;-->\n<!--<li *ngFor=\"let item of items\" [@myTrigger]=\"state\" (@myTrigger.start)=\"animStart($event)\" (@myTrigger.done)=\"animDone($event)\">{{ item }}</li>-->\n<!--</ul>-->\n\n<!--<p>{{ animDetails }}</p>-->\n\n<!--<page></page>-->\n\n\n<div class=\"main-wrapper-large d-none d-sm-block\">\n\n    <dashboard-header></dashboard-header>\n    <!--header-->\n\n    <aside class=\"sidebar\">\n\n        <div class=\"sidebar-main\">\n            <div class=\"sidebar-main-icons\">\n                <div class=\"sidebar-main-icons-brand\">\n                    <img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n                         title=\"AAT Home\" width=\"69\">\n                </div>\n\n                <ul>\n                    <li><i class=\"fas fa-home\"></i></li>\n                    <li><i class=\"far fa-clipboard\"></i></li>\n                    <li><i class=\"far fa-life-ring\"></i></li>\n                    <li><i class=\"fas fa-suitcase\"></i></li>\n                    <li><i class=\"fas fa-users\"></i></li>\n                    <li><i class=\"fas fa-id-card\"></i></li>\n                    <li><i class=\"far fa-newspaper\"></i></li>\n                </ul>\n            </div>\n            <!--sidebar-main-icons-->\n\n            <div class=\"sidebar-main__menu\" [@sideMenuAnime]=\"openClose\">\n                <button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-left\"></i></button>\n                <ul>\n                    <li>MyAAT</li>\n                    <li>Training and assessment</li>\n                    <li>Professional zone</li>\n                    <li>My career</li>\n                    <li>Support resources</li>\n                    <li>My membership</li>\n                    <li>News and events</li>\n                </ul>\n\n            </div>\n            <!--sidebar-main__menu-->\n        </div>\n        <!--Sidebar container-->\n\n    </aside>\n    <!--sidebar-->\n\n\n    <div class=\"hero container-fluid\" [@heroAnime]=\"openClose\">\n        <h1 class=\"myaat-h1\">Hello John</h1>\n        <p>Welcome to your dashboard, notice anything new?</p>\n    </div>\n    <!--hero-->\n\n    <article class=\"dashboard\" [@mainContainerAnime]=\"openClose\">\n        <button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-right\"></i></button>\n\n        <dashboard-content class=\"container-fluid\"></dashboard-content>\n\n    </article>\n\n\n    <!--<router-outlet></router-outlet>-->\n</div>\n<!--main wrapper large-->\n\n\n\n<div class=\"main-wrapper-small d-sm-none d-md-none d-lg-none\">\n\n    <dashboard-headermobile></dashboard-headermobile>\n\n    <button (click)=\"hideShowMobileMenu()\" [@menuAnimeMobileIcon]=\"menuState\" class=\"hamburger\">\n        <i class=\"fas fa-bars\"></i>\n    </button>\n\n\n    <dashboard-mobilemenu [@menuAnimeMobile]=\"menuState\"></dashboard-mobilemenu>\n    <!--<dashboard-mobileusermenu></dashboard-mobileusermenu>-->\n\n    <!--header-->\n\n    <!--<aside class=\"sidebar\">-->\n\n        <!--<div class=\"sidebar-main\">-->\n            <!--<div class=\"sidebar-main-icons\">-->\n                <!--<div class=\"sidebar-main-icons-brand\">-->\n                    <!--<img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"-->\n                         <!--title=\"AAT Home\" width=\"69\">-->\n                <!--</div>-->\n\n                <!--<ul>-->\n                    <!--<li><i class=\"fas fa-home\"></i></li>-->\n                    <!--<li><i class=\"far fa-clipboard\"></i></li>-->\n                    <!--<li><i class=\"far fa-life-ring\"></i></li>-->\n                    <!--<li><i class=\"fas fa-suitcase\"></i></li>-->\n                    <!--<li><i class=\"fas fa-users\"></i></li>-->\n                    <!--<li><i class=\"fas fa-id-card\"></i></li>-->\n                    <!--<li><i class=\"far fa-newspaper\"></i></li>-->\n                <!--</ul>-->\n            <!--</div>-->\n            <!--&lt;!&ndash;sidebar-main-icons&ndash;&gt;-->\n\n            <!--<div class=\"sidebar-main__menu\">-->\n                <!--&lt;!&ndash;<button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-left\"></i></button>&ndash;&gt;-->\n                <!--<ul>-->\n                    <!--<li>MyAAT</li>-->\n                    <!--<li>Training and assessment</li>-->\n                    <!--<li>Professional zone</li>-->\n                    <!--<li>My career</li>-->\n                    <!--<li>Support resources</li>-->\n                    <!--<li>My membership</li>-->\n                    <!--<li>News and events</li>-->\n                <!--</ul>-->\n\n            <!--</div>-->\n            <!--&lt;!&ndash;sidebar-main__menu&ndash;&gt;-->\n        <!--</div>-->\n        <!--&lt;!&ndash;Sidebar container&ndash;&gt;-->\n\n    <!--</aside>-->\n    <!--&lt;!&ndash;sidebar&ndash;&gt;-->\n\n\n    <div class=\"hero container-fluid\">\n        <h1 class=\"myaat-h1\">Hello John</h1>\n        <p>Welcome to your dashboard, notice anything new?</p>\n    </div>\n    <!--hero-->\n\n    <article class=\"dashboard\">\n        <!--<button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-right\"></i></button>-->\n\n        <dashboard-content class=\"container-fluid\"></dashboard-content>\n\n    </article>\n\n\n    <!--<router-outlet></router-outlet>-->\n</div>\n<!--main wrapper small-->\n\n\n"
-
-/***/ }),
-
-/***/ 554:
-/***/ (function(module, exports) {
-
-module.exports = "<!--<a class=\"edit-link\" href=\"#\">Edit</a>-->\n\n<h3>{{ adminresults.title }}</h3>\n\n<p>{{ adminresults.summary }}</p>\n\n<div class=\"row\">\n    <div class=\"col-md-7\">\n        <dashboard-resultscarousel></dashboard-resultscarousel>\n    </div>\n    <div class=\"col-md-5\">\n        <ul>\n            <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019216_Qualifications-Dashboard-Student\" target=\"_blank\">Qualification dashboard</a></li>\n            <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019207_Your-Assessment-Results-Student\" target=\"_blank\">Your assessment results</a></li>\n            <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019208_Statement-Of-Achievement-Student\" target=\"_blank\">Statement of achievement</a></li>\n            <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019214_Grade-Calculator-Student\" target=\"_blank\">Grade calculator</a></li>\n            <li><a href=\"https://www.aat.org.uk/assessment-venues/search\" target=\"_blank\">Find an assessment venue</a></li>\n        </ul>\n    </div>\n</div>\n"
-
-/***/ }),
-
 /***/ 555:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\">\n    <div class=\"col-md-4 col-top\">\n        <div class=\"card card-top\">\n            <a href=\"https://www.aatgreenroom.org\" target=\"_blank\">\n            <h4 class=\"h4\">{{ dashcontent.heading1 }}</h4>\n            </a>\n        </div>\n    </div>\n    <div class=\"col-md-4 col-top\">\n        <div class=\"card card-top\">\n            <a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019215_My-Bookmarked-Items-Student\" target=\"_blank\">\n            <h4 class=\"h4\"><i class=\"far fa-star\">&nbsp;&nbsp;</i>{{ dashcontent.heading2 }}</h4>\n            </a>\n        </div>\n    </div>\n    <div class=\"col-md-4\">\n        <div class=\"card card-top-rhs\">\n            <a href=\"https://www.aat.org.uk/prod/s3fs-public/assets/Your_little_book_of_essential_study_support_0.pdf\"\n               target=\"_blank\"><h4 class=\"h4\">{{ dashcontent.heading3 }}</h4></a>\n        </div>\n    </div>\n</div>\n<!--top row-->\n\n<div class=\"row\">\n    <div class=\"col-md-8\">\n        <!--MyProgress component not required until later development-->\n        <!--<div class=\"card card-progress\">-->\n            <!--<dashboard-myprogress></dashboard-myprogress>-->\n        <!--</div>-->\n        <div class=\"card card-study-support\">\n            <dashboard-studysupport></dashboard-studysupport>\n        </div>\n        <div class=\"card card-adminresults\">\n            <dashboard-adminresults></dashboard-adminresults>\n        </div>\n        <div class=\"card card-mycareer\">\n            <dashboard-mycareer></dashboard-mycareer>\n        </div>\n    </div>\n    <div class=\"col-md-4\">\n        <dashboard-newsupdates class=\"card\"></dashboard-newsupdates>\n        <dashboard-events class=\"card\"></dashboard-events>\n    </div>\n    <div class=\"col-md-12 px-0\">\n        <dashboard-primarypush></dashboard-primarypush>\n    </div>\n</div>\n<!--second row-->"
+module.exports = "<!--<h1>-->\n<!--{{title}}-->\n<!--</h1>-->\n\n<!--<ul>-->\n<!--<li><a [routerLink]=\"['home']\" routerLinkActive=\"active\">Home</a></li>-->\n<!--<li><a [routerLink]=\"['about']\" routerLinkActive=\"active\">About</a></li>-->\n<!--<li><a [routerLink]=\"['contact']\" routerLinkActive=\"active\">Contact</a></li>-->\n<!--</ul>-->\n\n<!--<button class=\"btn btn-success\" style=\"margin-left:80px;\" [@myTrigger]=\"state\" (click)=\"toggleState()\">My Button</button>-->\n<!--<button class=\"btn btn-success\" style=\"margin-left:80px;\" (click)=\"toggleState()\" [@removeMe]=\"btnState\">My Button</button>-->\n\n<!--<ul>-->\n<!--&lt;!&ndash;<li *ngFor=\"let item of items\" [@myTrigger]=\"state\">{{ item }}</li>&ndash;&gt;-->\n<!--<li *ngFor=\"let item of items\" [@myTrigger]=\"state\" (@myTrigger.start)=\"animStart($event)\" (@myTrigger.done)=\"animDone($event)\">{{ item }}</li>-->\n<!--</ul>-->\n\n<!--<p>{{ animDetails }}</p>-->\n\n<!--<page></page>-->\n\n\n<div class=\"main-wrapper-large d-none d-sm-block\">\n\n    <dashboard-header></dashboard-header>\n    <!--header-->\n\n    <aside class=\"sidebar\">\n\n        <div class=\"sidebar-main\">\n            <div class=\"sidebar-main-icons\">\n                <div class=\"sidebar-main-icons-brand\">\n                    <img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n                         title=\"AAT Home\" width=\"69\">\n                </div>\n\n                <ul>\n                    <li class=\"active\"><i class=\"fas fa-home\"></i></li>\n                    <li><i class=\"far fa-clipboard\"></i></li>\n                    <li><i class=\"far fa-life-ring\"></i></li>\n                    <li><i class=\"fas fa-suitcase\"></i></li>\n                    <li><i class=\"fas fa-users\"></i></li>\n                    <li><i class=\"fas fa-id-card\"></i></li>\n                    <li><i class=\"far fa-newspaper\"></i></li>\n                </ul>\n            </div>\n            <!--sidebar-main-icons-->\n\n            <div class=\"sidebar-main__menu\" [@sideMenuAnime]=\"openClose\">\n                <button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-left\"></i></button>\n                <ul>\n                    <li>MyAAT</li>\n                    <li>Training and assessment</li>\n                    <li>Professional zone</li>\n                    <li>My career</li>\n                    <li>Support resources</li>\n                    <li>My membership</li>\n                    <li>News and events</li>\n                </ul>\n\n            </div>\n            <!--sidebar-main__menu-->\n        </div>\n        <!--Sidebar container-->\n\n    </aside>\n    <!--sidebar-->\n\n\n    <div class=\"hero container-fluid\" [@heroAnime]=\"openClose\">\n        <h1 class=\"myaat-h1\">Hello John</h1>\n        <p>Welcome to your dashboard, notice anything new?</p>\n    </div>\n    <!--hero-->\n\n    <article class=\"dashboard\" [@mainContainerAnime]=\"openClose\">\n        <button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-right\"></i></button>\n\n        <dashboard-content class=\"container-fluid\"></dashboard-content>\n\n    </article>\n\n\n    <!--<router-outlet></router-outlet>-->\n</div>\n<!--main wrapper large-->\n\n\n\n<div class=\"main-wrapper-small d-sm-none d-md-none d-lg-none\">\n\n    <dashboard-headermobile></dashboard-headermobile>\n\n    <button (click)=\"hideShowMobileMenu()\" [@menuAnimeMobileIcon]=\"menuState\" class=\"hamburger\">\n        <i class=\"fas fa-bars\"></i>\n    </button>\n\n\n    <dashboard-mobilemenu [@menuAnimeMobile]=\"menuState\"></dashboard-mobilemenu>\n    <!--<dashboard-mobileusermenu></dashboard-mobileusermenu>-->\n\n    <!--header-->\n\n    <!--<aside class=\"sidebar\">-->\n\n        <!--<div class=\"sidebar-main\">-->\n            <!--<div class=\"sidebar-main-icons\">-->\n                <!--<div class=\"sidebar-main-icons-brand\">-->\n                    <!--<img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"-->\n                         <!--title=\"AAT Home\" width=\"69\">-->\n                <!--</div>-->\n\n                <!--<ul>-->\n                    <!--<li><i class=\"fas fa-home\"></i></li>-->\n                    <!--<li><i class=\"far fa-clipboard\"></i></li>-->\n                    <!--<li><i class=\"far fa-life-ring\"></i></li>-->\n                    <!--<li><i class=\"fas fa-suitcase\"></i></li>-->\n                    <!--<li><i class=\"fas fa-users\"></i></li>-->\n                    <!--<li><i class=\"fas fa-id-card\"></i></li>-->\n                    <!--<li><i class=\"far fa-newspaper\"></i></li>-->\n                <!--</ul>-->\n            <!--</div>-->\n            <!--&lt;!&ndash;sidebar-main-icons&ndash;&gt;-->\n\n            <!--<div class=\"sidebar-main__menu\">-->\n                <!--&lt;!&ndash;<button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-left\"></i></button>&ndash;&gt;-->\n                <!--<ul>-->\n                    <!--<li>MyAAT</li>-->\n                    <!--<li>Training and assessment</li>-->\n                    <!--<li>Professional zone</li>-->\n                    <!--<li>My career</li>-->\n                    <!--<li>Support resources</li>-->\n                    <!--<li>My membership</li>-->\n                    <!--<li>News and events</li>-->\n                <!--</ul>-->\n\n            <!--</div>-->\n            <!--&lt;!&ndash;sidebar-main__menu&ndash;&gt;-->\n        <!--</div>-->\n        <!--&lt;!&ndash;Sidebar container&ndash;&gt;-->\n\n    <!--</aside>-->\n    <!--&lt;!&ndash;sidebar&ndash;&gt;-->\n\n\n    <div class=\"hero container-fluid\">\n        <h1 class=\"myaat-h1\">Hello John</h1>\n        <p>Welcome to your dashboard, notice anything new?</p>\n    </div>\n    <!--hero-->\n\n    <article class=\"dashboard\">\n        <!--<button (click)=\"hideAndShow()\" role=\"button\" class=\"btn-sidemenu__close\"><i class=\"fas fa-angle-right\"></i></button>-->\n\n        <dashboard-content class=\"container-fluid\"></dashboard-content>\n\n    </article>\n\n\n    <!--<router-outlet></router-outlet>-->\n</div>\n<!--main wrapper small-->\n\n\n"
 
 /***/ }),
 
 /***/ 556:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card-head\">\n  <h3>Events</h3>\n</div>\n<div class=\"card-img\">\n  <a href=\"https://www.aat.org.uk/aat-events/branch-events/west-london-branch-time-management-agm\" target=\"_blank\">\n    <img src=\"https://knowclive.github.io/dashboard/assets/img/events.png\" alt=\"\">\n    <span class=\"tag tag-success\">Free</span>\n  </a>\n</div>\n<div class=\"card-foot\">\n  <a href=\"https://www.aat.org.uk/aat-events/branch-events/west-london-branch-time-management-agm\" target=\"_blank\">\n    <h4>Time Management & AGM</h4>\n  </a>\n  <span class=\"small-text\">9 May 2018</span>\n</div>\n\n<div class=\"card-list\">\n  <div class=\"card-list__item\">\n    <div class=\"card-list__item-img\">\n      <img src=\"https://knowclive.github.io/dashboard/assets/img/event-tb1.png\" alt=\"\">\n    </div>\n    <div class=\"card-list__item-text\">\n      <a href=\"https://www.aat.org.uk/aat-events/branch-events/north-west-london-branch-cross-border-transactions-vat-pitfalls-and\" target=\"_blank\">\n        Cross border transactions : Vat pitfalls and opportunities</a>\n      <span class=\"small-text\">16 May 2018</span>\n    </div>\n  </div>\n\n  <div class=\"card-list__item\">\n    <div class=\"card-list__item-img\">\n      <img src=\"https://knowclive.github.io/dashboard/assets/img/event-tb2.png\" alt=\"\">\n    </div>\n    <div class=\"card-list__item-text\">\n      <a href=\"https://www.aat.org.uk/aat-events/branch-events/london-branch-general-data-protection-regulation-gdpr\" target=\"_blank\">\n        General Data Protection Regulation (GDPR)</a>\n      <span class=\"small-text\">17 May 2018</span>\n    </div>\n  </div>\n\n</div>\n"
+module.exports = "<!--<a class=\"edit-link\" href=\"#\">Edit</a>-->\n\n<h3>{{ adminresults.title }}</h3>\n\n<p>{{ adminresults.summary }}</p>\n\n<div class=\"row\">\n    <div class=\"col-md-7\">\n        <dashboard-resultscarousel></dashboard-resultscarousel>\n    </div>\n    <div class=\"col-md-5\">\n        <ul>\n            <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019216_Qualifications-Dashboard-Student\" target=\"_blank\">Qualification dashboard</a></li>\n            <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019207_Your-Assessment-Results-Student\" target=\"_blank\">Your assessment results</a></li>\n            <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019208_Statement-Of-Achievement-Student\" target=\"_blank\">Statement of achievement</a></li>\n            <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019214_Grade-Calculator-Student\" target=\"_blank\">Grade calculator</a></li>\n            <li><a href=\"https://www.aat.org.uk/assessment-venues/search\" target=\"_blank\">Find an assessment venue</a></li>\n        </ul>\n    </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 557:
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"header\">\n  <div class=\"header-toolbar\">\n    <nav class=\"header-toolbar__inner\">\n      <ul>\n        <li>\n          <label>\n            <i class=\"fas fa-search\"></i>\n            <input type=\"search\" name=\"search\" placeholder=\"Search AAT...\">\n          </label>\n        </li>\n        <li [popover]=\"myPopover\">\n          <div class=\"avatar\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/john-snow.jpg\" alt=\"\" width=\"48\" height=\"48\">\n          </div>\n\n          <div class=\"member-details\">\n            <div class=\"name\">{{ header.firstname + ' ' + header.lastname}}</div>\n            <div class=\"memberid\">Membership number: 12345678</div>\n          </div>\n\n          <i class=\"fas fa-ellipsis-v\"></i>\n\n        </li>\n      </ul>\n      <popover-content #myPopover\n                       title=\"\"\n                       [closeOnClickOutside]=\"true\"\n                       class=\"header-toolbar__inner__popover\">\n        <ul class=\"profile-menu\">\n          <li><a href=\"\">Profile and account</a></li>\n          <li><a href=\"\">Student membership<br><span>Change role</span></a></li>\n          <li><a href=\"\">Edit my details</a></li>\n          <li><a href=\"\" class=\"ext-link\">Visit the AAT website <i class=\"fas fa-external-link-alt\"></i></a></li>\n          <li><a href=\"\">Log out</a></li>\n        </ul>\n      </popover-content>\n    </nav>\n\n  </div>\n</header>"
+module.exports = "<div class=\"row\">\n    <div class=\"col-md-4 col-top\">\n        <div class=\"card card-top\">\n            <a href=\"https://www.aatgreenroom.org\" target=\"_blank\">\n            <h4 class=\"h4\">{{ dashcontent.heading1 }}</h4>\n            </a>\n        </div>\n    </div>\n    <div class=\"col-md-4 col-top\">\n        <div class=\"card card-top\">\n            <a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019215_My-Bookmarked-Items-Student\" target=\"_blank\">\n            <h4 class=\"h4\"><i class=\"far fa-star\">&nbsp;&nbsp;</i>{{ dashcontent.heading2 }}</h4>\n            </a>\n        </div>\n    </div>\n    <div class=\"col-md-4\">\n        <div class=\"card card-top-rhs\">\n            <a href=\"https://www.aat.org.uk/prod/s3fs-public/assets/Your_little_book_of_essential_study_support_0.pdf\"\n               target=\"_blank\"><h4 class=\"h4\">{{ dashcontent.heading3 }}</h4></a>\n        </div>\n    </div>\n</div>\n<!--top row-->\n\n<div class=\"row\">\n    <div class=\"col-md-8\">\n        <!--MyProgress component not required until later development-->\n        <!--<div class=\"card card-progress\">-->\n            <!--<dashboard-myprogress></dashboard-myprogress>-->\n        <!--</div>-->\n        <div class=\"card card-study-support\">\n            <dashboard-studysupport></dashboard-studysupport>\n        </div>\n        <div class=\"card card-adminresults\">\n            <dashboard-adminresults></dashboard-adminresults>\n        </div>\n        <div class=\"card card-mycareer\">\n            <dashboard-mycareer></dashboard-mycareer>\n        </div>\n    </div>\n    <div class=\"col-md-4\">\n        <dashboard-newsupdates class=\"card\"></dashboard-newsupdates>\n        <dashboard-events class=\"card\"></dashboard-events>\n    </div>\n    <div class=\"col-md-12 px-0\">\n        <dashboard-primarypush></dashboard-primarypush>\n    </div>\n\n    <div class=\"col-md-12 px-0\">\n        <dashboard-footer></dashboard-footer>\n    </div>\n\n</div>\n<!--second row-->"
 
 /***/ }),
 
 /***/ 558:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"header-mobile\">\n\n  <popover-content #myPopover\n                   title=\"\"\n                   [closeOnClickOutside]=\"true\"\n                   class=\"header-mobile__popover\">\n    <div class=\"user-details\">\n      <div class=\"avatar\">\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/john-snow.jpg\" alt=\"\" width=\"60\" height=\"60\">\n      </div>\n      <div class=\"user-name\">John Snow</div>\n      <div class=\"memberid\">12345678</div>\n    </div>\n\n    <ul class=\"profile-menu\">\n      <li><a href=\"\">Profile and account</a></li>\n      <li><a href=\"\">Student membership<br><span>[Change role]</span></a></li>\n      <li><a href=\"\">Edit my details</a></li>\n      <li><a href=\"\" class=\"ext-link\">Visit the AAT website <i class=\"fas fa-external-link-alt\"></i></a></li>\n      <li><a href=\"\">Log out</a></li>\n    </ul>\n  </popover-content>\n\n  <div class=\"header-mobile__inner\">\n    <img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n         title=\"AAT Home\" width=\"69\">\n\n    <a href=\"https://www.aat.org.uk/search\" target=\"_blank\"><i class=\"fas fa-search\"></i></a>\n\n    <div class=\"avatar-mobile\" [popover]=\"myPopover\">\n      <img src=\"https://knowclive.github.io/dashboard/assets/img/john-snow.jpg\" alt=\"\" width=\"48\" height=\"48\">\n    </div>\n  </div>\n</div>\n\n"
+module.exports = "<div class=\"card-head\">\n  <h3>Events</h3>\n</div>\n<div class=\"card-img\">\n  <a href=\"https://www.aat.org.uk/aat-events/branch-events/west-london-branch-time-management-agm\" target=\"_blank\">\n    <img src=\"https://knowclive.github.io/dashboard/assets/img/events.png\" alt=\"\">\n    <span class=\"tag tag-success\">Free</span>\n  </a>\n</div>\n<div class=\"card-foot\">\n  <a href=\"https://www.aat.org.uk/aat-events/branch-events/west-london-branch-time-management-agm\" target=\"_blank\">\n    <h4>Time Management & AGM</h4>\n  </a>\n  <span class=\"small-text\">9 May 2018</span>\n</div>\n\n<div class=\"card-list\">\n  <div class=\"card-list__item\">\n    <div class=\"card-list__item-img\">\n      <img src=\"https://knowclive.github.io/dashboard/assets/img/event-tb1.png\" alt=\"\">\n    </div>\n    <div class=\"card-list__item-text\">\n      <a href=\"https://www.aat.org.uk/aat-events/branch-events/north-west-london-branch-cross-border-transactions-vat-pitfalls-and\" target=\"_blank\">\n        Cross border transactions : Vat pitfalls and opportunities</a>\n      <span class=\"small-text\">16 May 2018</span>\n    </div>\n  </div>\n\n  <div class=\"card-list__item\">\n    <div class=\"card-list__item-img\">\n      <img src=\"https://knowclive.github.io/dashboard/assets/img/event-tb2.png\" alt=\"\">\n    </div>\n    <div class=\"card-list__item-text\">\n      <a href=\"https://www.aat.org.uk/aat-events/branch-events/london-branch-general-data-protection-regulation-gdpr\" target=\"_blank\">\n        General Data Protection Regulation (GDPR)</a>\n      <span class=\"small-text\">17 May 2018</span>\n    </div>\n  </div>\n\n</div>\n"
 
 /***/ }),
 
 /***/ 559:
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  hero works!\n</p>\n"
+module.exports = "<div class=\"row footer\">\n\n  <div class=\"col-md-12\">\n\n    <div class=\"row footer__brand\">\n      <div class=\"footer__logo col-md-2\">\n        <img alt=\"AAT Home\" height=\"52\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n             title=\"AAT Home\" width=\"90\">\n      </div>\n\n      <div class=\"col-md-10\">\n        <ul class=\"footer__social-links\">\n          <li><i class=\"fab fa-facebook\"></i></li>\n          <li><i class=\"fab fa-twitter\"></i></li>\n          <li><i class=\"fab fa-instagram\"></i></li>\n          <li><i class=\"fab fa-linkedin-in\"></i></li>\n          <li><i class=\"fab fa-youtube\"></i></li>\n        </ul>\n      </div>\n\n    </div>\n\n    <div class=\"row\">\n      <div class=\"col-md-12 footer__policies\">\n        <ul>\n          <li><a href=\"\">Privacy policy</a></li>\n          <li><a href=\"\">Cookie policy</a></li>\n          <li><a href=\"\">Equality of opportunity</a></li>\n          <li><a href=\"\">Terms and conditions</a></li>\n          <li><a href=\"\">Copyright &copy; 2018. All rights reserved.</a></li>\n        </ul>\n      </div>\n    </div>\n\n  </div>\n\n</div>\n\n\n"
 
 /***/ }),
 
 /***/ 560:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mobile-menu__branding\">\n    <img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n         title=\"AAT Home\" width=\"69\">\n</div>\n\n<ul>\n    <li class=\"active-mobile\"><i class=\"fas fa-home\"></i>MyAAT</li>\n    <li><i class=\"far fa-clipboard\"></i>Training and assessment</li>\n    <li><i class=\"far fa-life-ring\"></i>Professional zone</li>\n    <li><i class=\"fas fa-suitcase\"></i>My career</li>\n    <li><i class=\"fas fa-users\"></i>Support resources</li>\n    <li><i class=\"fas fa-id-card\"></i>My membership</li>\n    <li><i class=\"far fa-newspaper\"></i>News and events</li>\n</ul>"
+module.exports = "<header class=\"header\">\n  <div class=\"header-toolbar\">\n    <nav class=\"header-toolbar__inner\">\n      <ul>\n        <li>\n          <label>\n            <i class=\"fas fa-search\"></i>\n            <input type=\"search\" name=\"search\" placeholder=\"Search AAT...\">\n          </label>\n        </li>\n        <li [popover]=\"myPopover\">\n          <div class=\"avatar\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/john-snow.jpg\" alt=\"\" width=\"48\" height=\"48\">\n          </div>\n\n          <div class=\"member-details\">\n            <div class=\"name\">{{ header.firstname + ' ' + header.lastname}}</div>\n            <div class=\"memberid\">Membership number: 12345678</div>\n          </div>\n\n          <i class=\"fas fa-ellipsis-v\"></i>\n\n        </li>\n      </ul>\n      <popover-content #myPopover\n                       title=\"\"\n                       [closeOnClickOutside]=\"true\"\n                       class=\"header-toolbar__inner__popover\">\n        <ul class=\"profile-menu\">\n          <li><a href=\"\">Profile and account</a></li>\n          <li><a href=\"\">Student membership<br><span>Change role</span></a></li>\n          <li><a href=\"\">Edit my details</a></li>\n          <li><a href=\"\" class=\"ext-link\">Visit the AAT website <i class=\"fas fa-external-link-alt\"></i></a></li>\n          <li><a href=\"\">Log out</a></li>\n        </ul>\n      </popover-content>\n    </nav>\n\n  </div>\n</header>"
 
 /***/ }),
 
 /***/ 561:
 /***/ (function(module, exports) {
 
-module.exports = "<!--<a class=\"edit-link\" href=\"#\">See more</a>-->\n\n<h3>{{ mycareer.heading }}</h3>\n\n<p>{{ mycareer.summary }}</p>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019209_Search-For-UK-Jobs-Student\" target=\"_blank\">{{ mycareer.link1.title }}</a></li>\n      <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019211_Build-My-CV-Online-Student\" target=\"_blank\">{{ mycareer.link2.title }}</a></li>\n    </ul>\n  </div>\n  <div class=\"col-md-6\">\n    <ul>\n      <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019213_Career-Support\" target=\"_blank\">{{ mycareer.link3.title }}</a></li>\n      <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019205_Record-Work-Experience-Student\" target=\"_blank\">{{ mycareer.link4.title }}</a></li>\n    </ul>\n  </div>\n</div>"
+module.exports = "<div class=\"header-mobile\">\n\n  <popover-content #myPopover\n                   title=\"\"\n                   [closeOnClickOutside]=\"true\"\n                   class=\"header-mobile__popover\">\n    <div class=\"user-details\">\n      <div class=\"avatar\">\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/john-snow.jpg\" alt=\"\" width=\"60\" height=\"60\">\n      </div>\n      <div class=\"user-name\">John Snow</div>\n      <div class=\"memberid\">12345678</div>\n    </div>\n\n    <ul class=\"profile-menu\">\n      <li><a href=\"\">Profile and account</a></li>\n      <li><a href=\"\">Student membership<br><span>[Change role]</span></a></li>\n      <li><a href=\"\">Edit my details</a></li>\n      <li><a href=\"\" class=\"ext-link\">Visit the AAT website <i class=\"fas fa-external-link-alt\"></i></a></li>\n      <li><a href=\"\">Log out</a></li>\n    </ul>\n  </popover-content>\n\n  <div class=\"header-mobile__inner\">\n    <img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n         title=\"AAT Home\" width=\"69\">\n\n    <a href=\"https://www.aat.org.uk/search\" target=\"_blank\"><i class=\"fas fa-search\"></i></a>\n\n    <div class=\"avatar-mobile\" [popover]=\"myPopover\">\n      <img src=\"https://knowclive.github.io/dashboard/assets/img/john-snow.jpg\" alt=\"\" width=\"48\" height=\"48\">\n    </div>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
 /***/ 562:
 /***/ (function(module, exports) {
 
-module.exports = "<!--<a class=\"edit-link\" href=\"#\">Edit</a>-->\n<h3>{{ myprogress.title }}</h3>\n\n\n<p>{{ myprogress.summary }}</p>\n\n<div class=\"row drawer\" (click)=\"isClassVisible1 = !isClassVisible1;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item1.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-success\">{{ myprogress.item1.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item1.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"fas fa-check-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible1 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item1.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item1.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible2 = !isClassVisible2;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item2.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-success\">{{ myprogress.item2.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item2.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"fas fa-check-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible2 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible3 = !isClassVisible3;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item3.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-my-progress\">{{ myprogress.item3.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item3.status }}</span></div>\n    <div class=\"col-md-1\"><img src=\"https://knowclive.github.io/dashboard/assets/img/my-progress.svg\" alt=\"\"></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible3 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item3.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item3.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item3.module.title3 }}</span></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible4 = !isClassVisible4;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item4.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-pending\">{{ myprogress.item4.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item4.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"far fa-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible4 }\">\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item4.module.title1 }}</span></div>\n\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item4.module.title2 }}</span></div>\n\n    </div>\n</div>\n\n\n\n\n<!-- User input add new items functionality-->\n\n<!--<div>-->\n    <!--<h2> Grocery list manager </h2>-->\n\n    <!--<ul class=\"list-group\">-->\n        <!--<li *ngFor=\"let task of tasks\" class=\"list-group-item\">-->\n            <!--<span> {{ task.name }} </span>-->\n        <!--</li>-->\n    <!--</ul>-->\n\n\n    <!--<div class=\"row\">-->\n        <!--<div class=\"col-xs-6 col-md-4\">-->\n            <!--<div class=\"input-group\">-->\n                <!--<input type=\"text\" class=\"form-control\" placeholder=\"enter grocery items\" [(ngModel)]=\"task\" />-->\n                <!--<div class=\"input-group-btn\">-->\n                    <!--<button class=\"btn btn-primary\" type=\"button\" (click)=\"onClick()\">-->\n                        <!--<span class=\"glyphicon glyphicon-ok\"></span>-->\n                    <!--</button>-->\n                <!--</div>-->\n            <!--</div>-->\n        <!--</div>-->\n    <!--</div>-->\n\n<!--</div>-->"
+module.exports = "<p>\n  hero works!\n</p>\n"
 
 /***/ }),
 
 /***/ 563:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card-head\">\n    <h3>News and updates</h3>\n</div>\n<div class=\"card-img\">\n    <a href=\"https://www.aat.org.uk/aat-news/new-phase-for-mtd-as-it-opens-up-income-tax-pilot\" target=\"_blank\">\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/Brian-Palmer.jpg\" alt=\"\">\n        <span class=\"tag tag-success\">Salaries</span>\n    </a>\n</div>\n<div class=\"card-foot\">\n    <a href=\"https://www.aat.org.uk/aat-news/new-phase-for-mtd-as-it-opens-up-income-tax-pilot\" target=\"_blank\">\n    <h4>New phase for MTD as it opens up income tax pilot</h4>\n    </a>\n    <span class=\"small-text\">28 Mar 2018</span>\n</div>\n\n<div class=\"card-list\">\n    <div class=\"card-list__item\">\n        <div class=\"card-list__item-img\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/HMRC.jpg\" alt=\"\">\n        </div>\n        <div class=\"card-list__item-text\">\n            <a href=\"https://www.aat.org.uk/aat-news/mps-clearer-tax-strategy-and-additional-hmrc-investment-needed\" target=\"_blank\">\n                MPs: Clearer tax strategy and additional HMRC investment needed</a>\n            <span class=\"small-text\">21 Mar 2018</span>\n        </div>\n    </div>\n\n    <div class=\"card-list__item\">\n        <div class=\"card-list__item-img\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/man-at-desk.jpg\" alt=\"\">\n        </div>\n        <div class=\"card-list__item-text\">\n            <a href=\"https://www.aat.org.uk/aat-news/aat-flexible-working-solutions-key-to-tackling-sharing-parental-responsibilities\" target=\"_blank\">\n                AAT: Flexible working solutions key to tackling sharing parental responsibilities</a>\n            <span class=\"small-text\">15 Mar 2018</span>\n        </div>\n    </div>\n\n</div>\n"
+module.exports = "<div class=\"mobile-menu__branding\">\n    <img alt=\"AAT Home\" height=\"30\" src=\"https://www.aat.org.uk/assets/img/svg/aat_logo.svg\"\n         title=\"AAT Home\" width=\"69\">\n</div>\n\n<ul>\n    <li class=\"active-mobile\"><i class=\"fas fa-home\"></i>MyAAT</li>\n    <li><i class=\"far fa-clipboard\"></i>Training and assessment</li>\n    <li><i class=\"far fa-life-ring\"></i>Professional zone</li>\n    <li><i class=\"fas fa-suitcase\"></i>My career</li>\n    <li><i class=\"fas fa-users\"></i>Support resources</li>\n    <li><i class=\"fas fa-id-card\"></i>My membership</li>\n    <li><i class=\"far fa-newspaper\"></i>News and events</li>\n</ul>"
 
 /***/ }),
 
 /***/ 564:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"primary-banner\">\n  <div class=\"primary-banner__inner\">\n    <h1>Achieve AAT full membership (MAAT)</h1>\n    <p>Are you ready to apply for full membership and gain internationally recognised MAAT status?</p>\n    <a href=\"https://www.aat.org.uk/membership/apply-for-aat-full-membership\" class=\"btn btn-success\">How to apply</a>\n  </div>\n</div>"
+module.exports = "<!--<a class=\"edit-link\" href=\"#\">See more</a>-->\n\n<h3>{{ mycareer.heading }}</h3>\n\n<p>{{ mycareer.summary }}</p>\n\n<div class=\"row\">\n  <div class=\"col-md-6\">\n    <ul>\n      <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019209_Search-For-UK-Jobs-Student\" target=\"_blank\">{{ mycareer.link1.title }}</a></li>\n      <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019211_Build-My-CV-Online-Student\" target=\"_blank\">{{ mycareer.link2.title }}</a></li>\n    </ul>\n  </div>\n  <div class=\"col-md-6\">\n    <ul>\n      <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019213_Career-Support\" target=\"_blank\">{{ mycareer.link3.title }}</a></li>\n      <li><a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019205_Record-Work-Experience-Student\" target=\"_blank\">{{ mycareer.link4.title }}</a></li>\n    </ul>\n  </div>\n</div>"
 
 /***/ }),
 
 /***/ 565:
 /***/ (function(module, exports) {
 
-module.exports = "<ngx-carousel\n        [inputs]=\"carouselOne\"\n        (carouselLoad)=\"myfunc($event)\">\n    <ngx-item NgxCarouselItem>\n        <a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019216_Qualifications-Dashboard-Student\"\n           target=\"_blank\">\n            <img class=\"image-1\" src=\"https://knowclive.github.io/dashboard/assets/img/results/quals-doughnut.png\" alt=\"\">\n            <h4>How much is each assessment worth?</h4>\n        </a>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019216_Qualifications-Dashboard-Student\"\n           target=\"_blank\">\n            <img class=\"image-2\" src=\"https://knowclive.github.io/dashboard/assets/img/results/Pound-coins-close-up.jpg\" alt=\"\">\n            <h4>Elements of Costing results are ready</h4>\n        </a>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019216_Qualifications-Dashboard-Student\"\n           target=\"_blank\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n            <!--<img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">-->\n            <h4>Congratulations! You passed Bookkeeping Controls</h4>\n        </a>\n    </ngx-item>\n    <button NgxCarouselPrev class='leftRs'>&lt;</button>\n    <button NgxCarouselNext class='rightRs'>&gt;</button>\n</ngx-carousel>\n"
+module.exports = "<!--<a class=\"edit-link\" href=\"#\">Edit</a>-->\n<h3>{{ myprogress.title }}</h3>\n\n\n<p>{{ myprogress.summary }}</p>\n\n<div class=\"row drawer\" (click)=\"isClassVisible1 = !isClassVisible1;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item1.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-success\">{{ myprogress.item1.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item1.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"fas fa-check-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible1 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item1.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item1.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible2 = !isClassVisible2;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item2.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-success\">{{ myprogress.item2.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item2.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"fas fa-check-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible2 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item2.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible3 = !isClassVisible3;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item3.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-my-progress\">{{ myprogress.item3.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item3.status }}</span></div>\n    <div class=\"col-md-1\"><img src=\"https://knowclive.github.io/dashboard/assets/img/my-progress.svg\" alt=\"\"></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible3 }\">\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item3.module.title1 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-11\"><span class=\"module-title\">{{ myprogress.item3.module.title2 }}</span></div>\n        <div class=\"col-md-1\"><i class=\"fas fa-check\"></i></div>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item3.module.title3 }}</span></div>\n    </div>\n</div>\n\n<div class=\"row drawer\" (click)=\"isClassVisible4 = !isClassVisible4;\">\n    <div class=\"col-md-7\"><p>{{ myprogress.item4.title }}</p></div>\n    <div class=\"col-md-2\"><span class=\"tag tag-pending\">{{ myprogress.item4.task }}</span></div>\n    <div class=\"col-md-2\"><span>{{ myprogress.item4.status }}</span></div>\n    <div class=\"col-md-1\"><i class=\"far fa-circle\"></i></div>\n</div>\n\n<div class=\"accordion\" [ngClass]=\"{'open': isClassVisible4 }\">\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item4.module.title1 }}</span></div>\n\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-md-12\"><span class=\"module-title\">{{ myprogress.item4.module.title2 }}</span></div>\n\n    </div>\n</div>\n\n\n\n\n<!-- User input add new items functionality-->\n\n<!--<div>-->\n    <!--<h2> Grocery list manager </h2>-->\n\n    <!--<ul class=\"list-group\">-->\n        <!--<li *ngFor=\"let task of tasks\" class=\"list-group-item\">-->\n            <!--<span> {{ task.name }} </span>-->\n        <!--</li>-->\n    <!--</ul>-->\n\n\n    <!--<div class=\"row\">-->\n        <!--<div class=\"col-xs-6 col-md-4\">-->\n            <!--<div class=\"input-group\">-->\n                <!--<input type=\"text\" class=\"form-control\" placeholder=\"enter grocery items\" [(ngModel)]=\"task\" />-->\n                <!--<div class=\"input-group-btn\">-->\n                    <!--<button class=\"btn btn-primary\" type=\"button\" (click)=\"onClick()\">-->\n                        <!--<span class=\"glyphicon glyphicon-ok\"></span>-->\n                    <!--</button>-->\n                <!--</div>-->\n            <!--</div>-->\n        <!--</div>-->\n    <!--</div>-->\n\n<!--</div>-->"
 
 /***/ }),
 
 /***/ 566:
 /***/ (function(module, exports) {
 
-module.exports = "<!--<a class=\"edit-link\" href=\"#\">Edit</a>-->\n\n<h3>{{ studysupport.heading }}</h3>\n\n<p>{{ studysupport.summary }}</p>\n\n<div class=\"row\">\n    <div class=\"col-md-6\">\n        <!--<ul>-->\n        <!--<li *ngFor=\"let support of supportContent\" class=\"card-mini\">-->\n        <!--<p>{{ support.title }}</p>-->\n        <!--<img [src]=\"support.imageUrl\"  alt=\"\">-->\n        <!--</li>-->\n        <!--</ul>-->\n        <ul>\n            <li class=\"card-mini col-md-12 col-xs-12\"><a\n                    href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019210_Search-For-Study-Support-Student\"\n                    target=\"_blank\">\n                <span class=\"card-mini__text\">\n                <p>\n                {{ studysupport.card1.title }}\n                </p>\n                </span>\n                <img [src]=\"studysupport.card1.imageUrl\" alt=\"\"></a>\n            </li>\n\n            <li class=\"card-mini col-md-12 col-xs-12\"><a href=\"https://www.aatcomment.org.uk/category/study-tips/\" target=\"_blank\">\n                <span class=\"card-mini__text\">\n                <p>{{ studysupport.card2.title }}</p>\n                </span>\n                    <img\n                    [src]=\"studysupport.card2.imageUrl\" alt=\"\"></a>\n            </li>\n            <!--<li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card3.title }}</p><img [src]=\"studysupport.card3.imageUrl\" alt=\"\"></a></li>-->\n        </ul>\n    </div>\n    <div class=\"col-md-6\">\n        <ul>\n            <li class=\"card-mini col-md-12 col-xs-12\"><a href=\"https://www.aat.org.uk/prod/s3fs-public/assets/Your_little_book_of_essential_study_support_0.pdf\" target=\"_blank\">\n                <span class=\"card-mini__text\">\n                <p>{{ studysupport.card4.title }}</p>\n                </span>\n                    <img\n                    [src]=\"studysupport.card4.imageUrl\" alt=\"\"></a>\n            </li>\n            <li class=\"card-mini col-md-12 col-xs-12\"><a href=\"https://forums.aat.org.uk/Forum/categories/for-student-members\" target=\"_blank\">\n                <span class=\"card-mini__text\">\n                <p>{{ studysupport.card5.title }}</p>\n                </span>\n                    <img\n                    [src]=\"studysupport.card5.imageUrl\" alt=\"\"></a>\n            </li>\n            <!--<li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card6.title }}</p><img [src]=\"studysupport.card6.imageUrl\" alt=\"\"></a></li>-->\n        </ul>\n    </div>\n</div>\n"
+module.exports = "<div class=\"card-head\">\n    <h3>News and updates</h3>\n</div>\n<div class=\"card-img\">\n    <a href=\"https://www.aat.org.uk/aat-news/new-phase-for-mtd-as-it-opens-up-income-tax-pilot\" target=\"_blank\">\n        <img src=\"https://knowclive.github.io/dashboard/assets/img/Brian-Palmer.jpg\" alt=\"\">\n        <span class=\"tag tag-success\">Salaries</span>\n    </a>\n</div>\n<div class=\"card-foot\">\n    <a href=\"https://www.aat.org.uk/aat-news/new-phase-for-mtd-as-it-opens-up-income-tax-pilot\" target=\"_blank\">\n    <h4>New phase for MTD as it opens up income tax pilot</h4>\n    </a>\n    <span class=\"small-text\">28 Mar 2018</span>\n</div>\n\n<div class=\"card-list\">\n    <div class=\"card-list__item\">\n        <div class=\"card-list__item-img\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/HMRC.jpg\" alt=\"\">\n        </div>\n        <div class=\"card-list__item-text\">\n            <a href=\"https://www.aat.org.uk/aat-news/mps-clearer-tax-strategy-and-additional-hmrc-investment-needed\" target=\"_blank\">\n                MPs: Clearer tax strategy and additional HMRC investment needed</a>\n            <span class=\"small-text\">21 Mar 2018</span>\n        </div>\n    </div>\n\n    <div class=\"card-list__item\">\n        <div class=\"card-list__item-img\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/man-at-desk.jpg\" alt=\"\">\n        </div>\n        <div class=\"card-list__item-text\">\n            <a href=\"https://www.aat.org.uk/aat-news/aat-flexible-working-solutions-key-to-tackling-sharing-parental-responsibilities\" target=\"_blank\">\n                AAT: Flexible working solutions key to tackling sharing parental responsibilities</a>\n            <span class=\"small-text\">15 Mar 2018</span>\n        </div>\n    </div>\n\n</div>\n"
 
 /***/ }),
 
 /***/ 567:
 /***/ (function(module, exports) {
 
+module.exports = "<div class=\"primary-banner\">\n  <div class=\"primary-banner__inner\">\n    <h1>Achieve AAT full membership (MAAT)</h1>\n    <p>Are you ready to apply for full membership and gain internationally recognised MAAT status?</p>\n    <a href=\"https://www.aat.org.uk/membership/apply-for-aat-full-membership\" class=\"btn btn-success\">How to apply</a>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ 568:
+/***/ (function(module, exports) {
+
+module.exports = "<ngx-carousel\n        [inputs]=\"carouselOne\"\n        (carouselLoad)=\"myfunc($event)\">\n    <ngx-item NgxCarouselItem>\n        <a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019216_Qualifications-Dashboard-Student\"\n           target=\"_blank\">\n            <img class=\"image-1\" src=\"https://knowclive.github.io/dashboard/assets/img/results/quals-doughnut.png\" alt=\"\">\n            <h4>How much is each assessment worth?</h4>\n        </a>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019216_Qualifications-Dashboard-Student\"\n           target=\"_blank\">\n            <img class=\"image-2\" src=\"https://knowclive.github.io/dashboard/assets/img/results/Pound-coins-close-up.jpg\" alt=\"\">\n            <h4>Elements of Costing results are ready</h4>\n        </a>\n    </ngx-item>\n    <ngx-item NgxCarouselItem>\n        <a href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019216_Qualifications-Dashboard-Student\"\n           target=\"_blank\">\n            <img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">\n            <!--<img src=\"https://knowclive.github.io/dashboard/assets/img/results/ring.svg\" alt=\"\">-->\n            <h4>Congratulations! You passed Bookkeeping Controls</h4>\n        </a>\n    </ngx-item>\n    <button NgxCarouselPrev class='leftRs'>&lt;</button>\n    <button NgxCarouselNext class='rightRs'>&gt;</button>\n</ngx-carousel>\n"
+
+/***/ }),
+
+/***/ 569:
+/***/ (function(module, exports) {
+
+module.exports = "<!--<a class=\"edit-link\" href=\"#\">Edit</a>-->\n\n<h3>{{ studysupport.heading }}</h3>\n\n<p>{{ studysupport.summary }}</p>\n\n<div class=\"row\">\n    <div class=\"col-md-6\">\n        <!--<ul>-->\n        <!--<li *ngFor=\"let support of supportContent\" class=\"card-mini\">-->\n        <!--<p>{{ support.title }}</p>-->\n        <!--<img [src]=\"support.imageUrl\"  alt=\"\">-->\n        <!--</li>-->\n        <!--</ul>-->\n        <ul>\n            <li class=\"card-mini col-md-12 col-xs-12\"><a\n                    href=\"https://aat.invisionapp.com/share/WTGQWMW4GMR#/290019210_Search-For-Study-Support-Student\"\n                    target=\"_blank\">\n                <span class=\"card-mini__text\">\n                <p>\n                {{ studysupport.card1.title }}\n                </p>\n                </span>\n                <img [src]=\"studysupport.card1.imageUrl\" alt=\"\"></a>\n            </li>\n\n            <li class=\"card-mini col-md-12 col-xs-12\"><a href=\"https://www.aatcomment.org.uk/category/study-tips/\" target=\"_blank\">\n                <span class=\"card-mini__text\">\n                <p>{{ studysupport.card2.title }}</p>\n                </span>\n                    <img\n                    [src]=\"studysupport.card2.imageUrl\" alt=\"\"></a>\n            </li>\n            <!--<li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card3.title }}</p><img [src]=\"studysupport.card3.imageUrl\" alt=\"\"></a></li>-->\n        </ul>\n    </div>\n    <div class=\"col-md-6\">\n        <ul>\n            <li class=\"card-mini col-md-12 col-xs-12\"><a href=\"https://www.aat.org.uk/prod/s3fs-public/assets/Your_little_book_of_essential_study_support_0.pdf\" target=\"_blank\">\n                <span class=\"card-mini__text\">\n                <p>{{ studysupport.card4.title }}</p>\n                </span>\n                    <img\n                    [src]=\"studysupport.card4.imageUrl\" alt=\"\"></a>\n            </li>\n            <li class=\"card-mini col-md-12 col-xs-12\"><a href=\"https://forums.aat.org.uk/Forum/categories/for-student-members\" target=\"_blank\">\n                <span class=\"card-mini__text\">\n                <p>{{ studysupport.card5.title }}</p>\n                </span>\n                    <img\n                    [src]=\"studysupport.card5.imageUrl\" alt=\"\"></a>\n            </li>\n            <!--<li class=\"card-mini\"><a href=\"\"><p>{{ studysupport.card6.title }}</p><img [src]=\"studysupport.card6.imageUrl\" alt=\"\"></a></li>-->\n        </ul>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ 570:
+/***/ (function(module, exports) {
+
 module.exports = "<!--<h1 class=\"h1-hero\"> H1 hero</h1>-->\n\n<!--<h1> H1 {{ page.title }}</h1>-->\n\n\n<!--<h2>H2 title</h2>-->\n<!--<h3>H3 title</h3>-->\n<!--<h4>H4 title</h4>-->\n<!--<p> {{ page.subtitle }}</p>-->\n<!--<p> {{ page.content }}</p>-->\n\n<!--<img class=\"fullBg\" fullpage [src]=\"page.image\">-->\n"
 
 /***/ }),
 
-/***/ 601:
+/***/ 604:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(339);
@@ -1416,5 +1479,5 @@ module.exports = __webpack_require__(339);
 
 /***/ })
 
-},[601]);
+},[604]);
 //# sourceMappingURL=main.bundle.js.map
