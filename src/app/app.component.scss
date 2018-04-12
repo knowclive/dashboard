@@ -136,7 +136,19 @@
 dashboard-content {
   display: block;
   position: relative;
-  top: -160px;
+  top: -40px;
+
+  //  Breakpoints
+  @include breakpoint (fromMedium) {
+    top: -160px;
+  }
+}
+
+.hero-mobile {
+  background: $ui-grey-2;
+  position: relative;
+  top: -27px;
+  padding: $padding-medium 0 0 $padding-medium;
 }
 
 .hamburger {
@@ -164,5 +176,6 @@ dashboard-content {
   // Momentum scrolling for mobile: https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
+  overflow-x: hidden; // Stop weird right gap scrolling happening when iOS momentus scrolling applied
   height: 100%;
 }

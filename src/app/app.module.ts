@@ -18,15 +18,16 @@ import {MyprogressComponent} from './components/myprogress/myprogress.component'
 import {AdminresultsComponent} from './components/adminresults/adminresults.component';
 import {NgxCarouselModule} from 'ngx-carousel';
 import 'hammerjs';
-import { ResultscarouselComponent } from './components/resultscarousel/resultscarousel.component';
-import { StudysupportComponent } from './components/studysupport/studysupport.component';
-import { MycareerComponent } from './components/mycareer/mycareer.component';
-import { NewsupdatesComponent } from './components/newsupdates/newsupdates.component';
-import { EventsComponent } from './components/events/events.component';
-import { PrimarypushComponent } from './components/primarypush/primarypush.component';
-import { MobilemenuComponent } from './components/mobilemenu/mobilemenu.component';
-import { HeadermobileComponent } from './components/headermobile/headermobile.component';
-import { FooterComponent } from './components/footer/footer.component';
+import {ResultscarouselComponent} from './components/resultscarousel/resultscarousel.component';
+import {StudysupportComponent} from './components/studysupport/studysupport.component';
+import {MycareerComponent} from './components/mycareer/mycareer.component';
+import {NewsupdatesComponent} from './components/newsupdates/newsupdates.component';
+import {EventsComponent} from './components/events/events.component';
+import {PrimarypushComponent} from './components/primarypush/primarypush.component';
+import {MobilemenuComponent} from './components/mobilemenu/mobilemenu.component';
+import {HeadermobileComponent} from './components/headermobile/headermobile.component';
+import {FooterComponent} from './components/footer/footer.component';
+import {AdComponent} from './components/ad/ad.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { FooterComponent } from './components/footer/footer.component';
     PrimarypushComponent,
     MobilemenuComponent,
     HeadermobileComponent,
-    FooterComponent
+    FooterComponent,
+    AdComponent
   ],
   imports: [
     BrowserModule,
