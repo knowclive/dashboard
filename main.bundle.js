@@ -1425,7 +1425,7 @@ module.exports = "<!--<h1>-->\n<!--{{title}}-->\n<!--</h1>-->\n\n<!--<ul>-->\n<!
 /***/ 558:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"ad-img\">\n  <img src=\"/assets/img/Knowledge-Hub-ad.png\" alt=\"\">\n  <!--<img src=\"https://knowclive.github.io/dashboard/assets/img/event-tb1.png\" alt=\"\">-->\n</div>"
+module.exports = "<div class=\"ad-img\">\n  <img src=\"https://knowclive.github.io/dashboard/assets/img/Knowledge-Hub-ad.png\" alt=\"\">\n</div>"
 
 /***/ }),
 
