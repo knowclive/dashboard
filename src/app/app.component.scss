@@ -48,9 +48,18 @@
         opacity: 0.8;
         text-align: center;
 
+        .active {
+          border-left: 5px solid $brand-primary;
+          &:hover {
+            color: $white;
+            background: $black;
+          }
+        }
+
         li {
           padding: $padding-base;
           height: 68px;
+          cursor: pointer;
 
           i {
             font-size: 24px;
@@ -85,6 +94,7 @@
         position: relative;
         color: $white;
         opacity: 0.8;
+        cursor: pointer;
 
         li {
           padding: $padding-base;

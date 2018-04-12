@@ -12,6 +12,12 @@
   margin-top: $margin-medium;
 }
 
+// Fix gap below footer caused by hero position top
+dashboard-footer {
+  margin-bottom: -160px;
+  height: 170px;
+}
+
 .col-top {
   align-self: flex-end;
   height: 85px;

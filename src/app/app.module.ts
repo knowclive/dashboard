@@ -26,6 +26,7 @@ import { EventsComponent } from './components/events/events.component';
 import { PrimarypushComponent } from './components/primarypush/primarypush.component';
 import { MobilemenuComponent } from './components/mobilemenu/mobilemenu.component';
 import { HeadermobileComponent } from './components/headermobile/headermobile.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { HeadermobileComponent } from './components/headermobile/headermobile.co
     EventsComponent,
     PrimarypushComponent,
     MobilemenuComponent,
-    HeadermobileComponent
+    HeadermobileComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
