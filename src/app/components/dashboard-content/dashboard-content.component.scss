@@ -15,7 +15,12 @@
 // Fix gap below footer caused by hero position top
 dashboard-footer {
   margin-bottom: -160px;
-  height: 170px;
+  height: 290px;
+
+  //  Breakpoints
+  @include breakpoint (fromMedium) {
+    height: 170px;
+  }
 }
 
 .col-top {
@@ -39,6 +44,11 @@ dashboard-footer {
     a {
       color: $black;
     }
+
+    //  Breakpoints
+    @include breakpoint (fromMedium) {
+      margin-top: 0;
+    }
   }
 
   //  Breakpoints
@@ -58,8 +68,14 @@ dashboard-footer {
   align-items: center;
   justify-content: flex-end;
   padding-bottom: $padding-base;
+  margin-top: $margin-medium;
 
   a {
     color: $white;
+  }
+
+  //  Breakpoints
+  @include breakpoint (fromMedium) {
+    margin-top: 0;
   }
 }

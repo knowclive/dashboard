@@ -79,6 +79,7 @@ span.small-text {
 // Overrides for Assessment results carousel component
 .ngxcarouselPointDefault {
   .ngxcarouselPoint {
+
     li {
       background: $ui-grey-3 !important;
       display: inline-block;
@@ -98,6 +99,14 @@ span.small-text {
     }
   }
 }
+
+.leftRs, .rightRs {
+  background: $white;
+  &:hover {
+    text-decoration: none;
+  }
+}
+/* Carousel overrides end */
 
 // Overriding styles for popover user menu on mobile
 .header-mobile {
