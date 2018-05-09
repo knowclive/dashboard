@@ -77,6 +77,54 @@ export class AppComponent {
     this.menuState = this.menuState === 'mobileOut' ? 'mobileIn' : 'mobileOut';
   }
 
+  //Menu tree
+  title: String;
+  menuList: any;
+  selected: any;
+
+  constructor() {
+    this.title = 'Collapsible menu - Angular 2';
+    this.menuList = [
+      {
+        'name': 'Training and assessment',
+        'subMenu': ['Study support'],
+        'subsubMenu': [
+          'Method of study',
+          'Types of study and revision support',
+          'Study support search',
+            'AAT Accounting Qualifications (AQ2016) update',
+            'Short qualifications 2016 updates',
+            'Excel e-learning',
+            'Anti-Money Laundering and Anti-Bribery and Corruption e-learning'
+        ]
+      },
+      {
+        'name': 'Javascript',
+        'subMenu': ['Jquery', 'Ajax']
+      },
+      {
+        'name': 'Bootstrap',
+        'subMenu': ['BootStrap 2', 'BootStrap 3']
+      }
+    ]
+  }
+
+  select(item) {
+    this.selected = (this.selected === item ? null : item);
+  }
+
+  isActive(item) {
+    return this.selected === item;
+  }
+
+  select1(item1) {
+    this.selected = (this.selected === item1 ? null : item1);
+  }
+
+  isActiveChild(item1) {
+    return this.selected === item1;
+  }
+
   // state: string = 'fadein';
   // // items = ['item1', 'item2', 'item3'];
   // items = new Array();

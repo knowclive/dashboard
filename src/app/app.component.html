@@ -49,6 +49,30 @@
 
             <div class="sidebar-main__menu" [@sideMenuAnime]="openClose">
                 <button (click)="hideAndShow()" role="button" class="btn-sidemenu__close"><i class="fas fa-angle-left"></i></button>
+
+                <ul class="tree-ul">
+                    <li *ngFor="let n of menuList" (click)="select(n.name);"
+                        [ngClass]="{active1: isActive(n.name)}">
+
+                        <span>{{n.name}}</span>
+
+                        <i [ngClass]="{iconplus: isActive(n.name)}" class="fas fa-plus-circle"></i>
+                        <i [ngClass]="{iconminus: isActive(n.name)}" class="fas fa-minus-circle"></i>
+
+                        <ul class="active-inner" style="display:none;">
+
+                            <li class="child-li" *ngFor="let child of n.subMenu" (click)="select1(n.subMenu);"
+                                [ngClass]="{activechild: isActiveChild(n.subMenu)}">
+                                {{child}}
+                                <ul class="active-inner__inner" style="display:none;">
+                                    <li class="grandchild-li-inner" *ngFor="let grandchild of n.subsubMenu">
+                                        {{grandchild}}
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
                 <ul>
                     <li>MyAAT</li>
                     <li>Training and assessment</li>
