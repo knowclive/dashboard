@@ -87,8 +87,8 @@ export class AppComponent {
     this.menuList = [
       {
         'name': 'Training and assessment',
-        'subMenu': ['Study support'],
-        'subsubMenu': [
+        'subMenu1': ['Study support'],
+        'subsubMenu1': [
           'Method of study',
           'Types of study and revision support',
           'Study support search',
@@ -96,6 +96,18 @@ export class AppComponent {
             'Short qualifications 2016 updates',
             'Excel e-learning',
             'Anti-Money Laundering and Anti-Bribery and Corruption e-learning'
+        ],
+        'subMenu2': ['Assessments'],
+        'subsubMenu2': [
+          'CBA five steps',
+          'Your assessment results',
+          'Synoptic assessment windows and results',
+          'SecureAssess information and support',
+          'CBP - web access',
+          'General assessment FAQs',
+          'Find an assessment venue',
+          'Statements of Achievement',
+          'Enquiries and appeals'
         ]
       },
       {
@@ -106,7 +118,7 @@ export class AppComponent {
         'name': 'Bootstrap',
         'subMenu': ['BootStrap 2', 'BootStrap 3']
       }
-    ]
+    ];
   }
 
   select(item) {

@@ -73,6 +73,8 @@
       flex: 0 0 192px;
       max-width: 192px;
       background: $ui-grey-4;
+      overflow: auto;
+
       button {
         background: transparent;
         border-color: transparent;
