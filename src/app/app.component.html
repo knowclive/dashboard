@@ -40,7 +40,7 @@
                     <li><i class="far fa-clipboard"></i></li>
                     <li><i class="far fa-life-ring"></i></li>
                     <li><i class="fas fa-suitcase"></i></li>
-                    <li><i class="fas fa-users"></i></li>
+                    <!--<li><i class="fas fa-users"></i></li>-->
                     <li><i class="fas fa-id-card"></i></li>
                     <li><i class="far fa-newspaper"></i></li>
                 </ul>
@@ -51,6 +51,7 @@
                 <button (click)="hideAndShow()" role="button" class="btn-sidemenu__close"><i class="fas fa-angle-left"></i></button>
 
                 <ul class="tree-ul">
+                    <li>MyAAT</li>
                     <li *ngFor="let n of menuList" (click)="select(n.name);"
                         [ngClass]="{active1: isActive(n.name)}">
 
@@ -85,15 +86,15 @@
                         </ul>
                     </li>
                 </ul>
-                <ul>
-                    <li>MyAAT</li>
-                    <li>Training and assessment</li>
-                    <li>Professional zone</li>
-                    <li>My career</li>
-                    <li>Support resources</li>
-                    <li>My membership</li>
-                    <li>News and events</li>
-                </ul>
+                <!--<ul>-->
+                    <!--<li>MyAAT</li>-->
+                    <!--<li>Training and assessment</li>-->
+                    <!--<li>Professional zone</li>-->
+                    <!--<li>My career</li>-->
+                    <!--<li>Support resources</li>-->
+                    <!--<li>My membership</li>-->
+                    <!--<li>News and events</li>-->
+                <!--</ul>-->
 
             </div>
             <!--sidebar-main__menu-->

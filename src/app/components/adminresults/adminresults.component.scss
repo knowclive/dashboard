@@ -1,3 +1,17 @@
+@import '../../../sass/all';
+
+.fa-check-circle {
+  font-size: 84px;
+  color: $brand-primary;
+  display: block;
+  text-align: center;
+  margin-bottom: $margin-medium;
+}
+
+h4 {
+  text-align: center;
+}
+
 ul {
   li {
     padding-bottom: 15px;

@@ -111,12 +111,73 @@ export class AppComponent {
         ]
       },
       {
-        'name': 'Javascript',
-        'subMenu': ['Jquery', 'Ajax']
+        'name': 'Professional zone',
+        'subMenu1': ['CPD zone'],
+        'subsubMenu1': [
+          'Get started with CPD',
+          'Our CPD policy',
+          'CPD monitoring',
+          'CPD resources',
+          'Online CPD record',
+          'CPD events and courses',
+        ],
+        'subMenu2': ['Professional standards'],
+        'subsubMenu2': [
+          'Professional standards',
+          'Fit and proper requirements',
+          'Professional ethics'
+        ]
       },
       {
-        'name': 'Bootstrap',
-        'subMenu': ['BootStrap 2', 'BootStrap 3']
+        'name': 'My Career',
+        'subMenu1': ['Students'],
+        'subsubMenu1': [
+          'Career support',
+          'Going on to university',
+          'Become an AAT licensed member',
+          'Work and study internationally'
+        ]
+        //NO items in this menu tree
+        // 'subMenu2': [''],
+        // 'subsubMenu2': [
+        //   ''
+        // ]
+      },
+      {
+        'name': 'My Membership',
+        'subMenu1': ['Student members'],
+        'subsubMenu1': [
+          'Benefits of student membership',
+          'Benefits of bookkeeping membership',
+          'NUS extra card',
+          'Your student member toolkit',
+          'Pay outstanding fees',
+          'Benefits of full membership',
+          'Apply for full membership',
+          'Work experience guidance',
+          'AAT Rewards',
+          'Fees information'
+        ]
+        //NO items in this menu tree
+        // 'subMenu2': [''],
+        // 'subsubMenu2': [
+        //   '',
+        // ]
+      },
+      {
+        'name': 'News and events',
+        'subMenu1': ['News'],
+        'subsubMenu1': [
+          'AAT Comment',
+          'AAT Weekly',
+          'Engage'
+        ],
+        'subMenu2': ['Events'],
+        'subsubMenu2': [
+          'Types of events',
+          'Events search',
+          'Event terms and conditions'
+        ]
       }
     ];
   }
